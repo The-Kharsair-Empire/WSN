@@ -28,9 +28,11 @@ int main(int argc, char* argv[]){
 
     //encryption sections
     long *keys;
-    long public_key;
-    long private_key;
-    long n;
+    long public_key = rank;
+    long private_key = 1;
+    long n = rank;
+    long *n_mods;
+
 
     rc = MPI_Init(&argc, &argv);
 
@@ -51,6 +53,7 @@ int main(int argc, char* argv[]){
     if (rank != Base_station) {
         sender_list = (int*)malloc(4*sizeof(int));
         keys = (long*) malloc(4*sizeof(long));
+        n_mods = (long*)  malloc(4*sizeof(long));
         adjacent_num = 0;
         adjacent_node_up = rank - row_len;
         adjacent_node_left = rank - 1;
@@ -62,6 +65,8 @@ int main(int argc, char* argv[]){
         if (adjacent_node_up >= 0){ //distributing key and determine adjacent nodes
             MPI_Send(&public_key, 1, MPI_LONG, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD);
             MPI_Recv(keys+offset, 1, MPI_LONG, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD, &stat);
+            MPI_Send(&n, 1, MPI_LONG, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD);
+            MPI_Recv(n_mods+offset, 1, MPI_LONG, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD, &stat);
             sender_list[offset++] = adjacent_node_up; 
             adjacent_num++;
             
@@ -69,24 +74,31 @@ int main(int argc, char* argv[]){
         if (adjacent_node_down < size-1){
             MPI_Recv(keys+offset, 1, MPI_LONG, adjacent_node_down, Internal_Comm, MPI_COMM_WORLD, &stat);
             MPI_Send(&public_key, 1, MPI_LONG, adjacent_node_down, Internal_Comm, MPI_COMM_WORLD);
+            MPI_Recv(n_mods+offset, 1, MPI_LONG, adjacent_node_down, Internal_Comm, MPI_COMM_WORLD, &stat);
+            MPI_Send(&n, 1, MPI_LONG, adjacent_node_down, Internal_Comm, MPI_COMM_WORLD);
             sender_list[offset++] = adjacent_node_down;
             adjacent_num++;
         }
         if (/*adjacent_node_left >= 0 &&*/ col_pos > 0){
             MPI_Send(&public_key, 1, MPI_LONG, adjacent_node_left, Internal_Comm, MPI_COMM_WORLD);
             MPI_Recv(keys+offset, 1, MPI_LONG, adjacent_node_left, Internal_Comm, MPI_COMM_WORLD, &stat);
+            MPI_Send(&n, 1, MPI_LONG, adjacent_node_left, Internal_Comm, MPI_COMM_WORLD);
+            MPI_Recv(n_mods+offset, 1, MPI_LONG, adjacent_node_left, Internal_Comm, MPI_COMM_WORLD, &stat);
             sender_list[offset++] = adjacent_node_left;
             adjacent_num++;
         }
         if (/*adjacent_node_right < size-1 && */col_pos < row_len-1){
             MPI_Recv(keys+offset, 1, MPI_LONG, adjacent_node_right, Internal_Comm, MPI_COMM_WORLD, &stat);
             MPI_Send(&public_key, 1, MPI_LONG, adjacent_node_right, Internal_Comm, MPI_COMM_WORLD);
+            MPI_Recv(n_mods+offset, 1, MPI_LONG, adjacent_node_right, Internal_Comm, MPI_COMM_WORLD, &stat);
+            MPI_Send(&n, 1, MPI_LONG, adjacent_node_right, Internal_Comm, MPI_COMM_WORLD);
             sender_list[offset] = adjacent_node_right;
             adjacent_num++;
         }
     }
     printf("%ld", public_key);
     MPI_Bcast(&public_key, 1, MPI_INT, Base_station, MPI_COMM_WORLD);// public key is no longer needed for each sensor node after distributing it to the adjacent node, this variable public key will be used to recieved the public key sent by the base station
+    MPI_Bcast(&n, 1, MPI_INT, Base_station, MPI_COMM_WORLD);
     printf("%ld", public_key);
 
     //all node sends ip to the base station;

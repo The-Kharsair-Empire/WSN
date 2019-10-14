@@ -10,7 +10,7 @@ run: compile
 compile:
 
 	mpicc -c WSN.c functions.c encryption.c
-	mpicc -openmp WSN.o functions.o encryption.o
+	mpicc -fopenmp WSN.o functions.o encryption.o
 
 # mainapp: WSN.o functions.o
 # 	$(MPI) WSN.o functions.o encryption.o
