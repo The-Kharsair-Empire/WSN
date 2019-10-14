@@ -12,7 +12,7 @@ int main(int argc, char* argv[]){
     const int row_len = 5, col_len = 4, num_node = 21, simulation_times = 1000;
     const int Base_station = 20; //grid nodes are node 0 to node 19;
     const int window_size = 3;
-    const int upperbound = 7; //not inclusive, generate random number [0, upperbound)
+    const int upperbound = 45; //not inclusive, generate random number [0, upperbound)
     int rank, size;
     const int Internal_Comm = 0;
     const int ToBaseStation_Comm = 1;
@@ -28,8 +28,8 @@ int main(int argc, char* argv[]){
 
     //encryption sections
     long *keys;
-    long public_key = rank;
-    long private_key = 1;
+    long public_key;
+    long private_key;
     long n = rank;
     long *n_mods;
 
@@ -50,6 +50,8 @@ int main(int argc, char* argv[]){
     }
     // generate_keys(rank, &public_key, &private_key, &n);
     int offset;
+    public_key = rank;
+    n = rank;
     if (rank != Base_station) {
         sender_list = (int*)malloc(4*sizeof(int));
         keys = (long*) malloc(4*sizeof(long));
@@ -96,10 +98,10 @@ int main(int argc, char* argv[]){
             adjacent_num++;
         }
     }
-    printf("%ld", public_key);
+    // printf("1 pub %ld\n", public_key);
     MPI_Bcast(&public_key, 1, MPI_INT, Base_station, MPI_COMM_WORLD);// public key is no longer needed for each sensor node after distributing it to the adjacent node, this variable public key will be used to recieved the public key sent by the base station
     MPI_Bcast(&n, 1, MPI_INT, Base_station, MPI_COMM_WORLD);
-    printf("%ld", public_key);
+    // printf("2 pub %ld\n", public_key);
 
     //all node sends ip to the base station;
     
@@ -138,7 +140,7 @@ int main(int argc, char* argv[]){
 
         for (num_of_time = 0; num_of_time < simulation_times; num_of_time++){
         
-            seed = rank;
+            seed = rank+num_of_time;
             srand(time(NULL)+seed);
             random_num = rand() % upperbound;
             // printf("rank %d, rnd num%d\n", rank, random_num);
@@ -234,13 +236,14 @@ int main(int argc, char* argv[]){
                 // printf("rank %d has finished\n", event_node);
             } else{
                 event_num++;
-                fprintf(fp, "");
+                // fprintf(fp, "");
 
                 
 
                 // printf("rank %d has an event\n", event_node);
             }
         }
+        fclose(fp);
     } 
     // printf("%d", event_num);
     MPI_Finalize();

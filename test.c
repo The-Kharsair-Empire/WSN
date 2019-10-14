@@ -18,7 +18,7 @@ int main(int argc, char* argv[]){
     const int row_len = 5, col_len = 4, num_node = 21, simulation_times = 1000;
     const int Base_station = 20; //grid nodes are node 0 to node 19;
     const int window_size = 3;
-    const int upperbound = 7; //not inclusive, generate random number [0, upperbound)
+    const int upperbound = 45; //not inclusive, generate random number [0, upperbound)
     int rank, size;
     const int Internal_Comm = 0;
     const int ToBaseStation_Comm = 1;
@@ -108,7 +108,7 @@ int main(int argc, char* argv[]){
 
         for (num_of_time = 0; num_of_time < simulation_times; num_of_time++){
         
-            seed = rank;
+            seed = rank+num_of_time;
             srand(time(NULL)+seed);
             random_num = rand() % upperbound;
             // printf("rank %d, rnd num%d\n", rank, random_num);
@@ -174,14 +174,16 @@ int main(int argc, char* argv[]){
             MPI_Recv(&event_node, 1, MPI_INT, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &stat);
             if (stat.MPI_TAG == Completion){
                 finished_nodes++;
-                printf("rank %d has finished\n", event_node);
+                // printf("rank %d has finished\n", event_node);
             } else{
                 event_num++;
-                printf("rank %d has an event\n", event_node);
+                // printf("rank %d has an event\n", event_node);
             }
         }
     } 
-    printf("%d", event_num);
+    if (rank == Base_station){
+        printf("%d\n", event_num);
+    }
     MPI_Finalize();
 	return 0;
 }
