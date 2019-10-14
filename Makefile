@@ -2,15 +2,19 @@
 # MPI=mpicc
 # CFLAGS=-Wall -g
 
+#program: WSN.c node_functions.c functions.c encryption.c
+#	export OMP_NUM_THREADS = 4
+#	sudo mpicc -fopenmp WSN.c node_functions.c functions.c encryption.c
+#	mpirun -n 21 ./a.out
+
 all: run
 
 run: compile
 	mpirun -n 21 a.out
 
 compile:
-
-	mpicc -c WSN.c functions.c encryption.c
-	mpicc -fopenmp WSN.o functions.o encryption.o
+	mpicc -c WSN.c functions.c node_functions.c encryption.c -lm
+	mpicc -fopenmp WSN.o functions.o  node_functions.o encryption.o -lm
 
 # mainapp: WSN.o functions.o
 # 	$(MPI) WSN.o functions.o encryption.o

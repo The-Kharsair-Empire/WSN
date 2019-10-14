@@ -1,5 +1,9 @@
 #include "WSN.h"
-
+//#include <string.h>
+//#include <omp.h>
+/*#include <stdio.h>
+#include <stdlib.h>
+#include<time.h>*/
 //this is an encryption algorithm called RSA using asymmetric key, a node will generate a pair of keys: public key and private key
 //then it will distribute the public key to its adjacent nodes, when it's receiving msg from its adjacent nodes.
 //adjacent nodes will encrypt the msg using the public key, then after this node receive the msg, it decrypts it using the private key
@@ -49,12 +53,32 @@ void get_private_key(long p, long q, long public_key, long *private_key) {
 	}
 }
 
+long encrypt_one(int input, long public_key, long n){
+	int i;
+	long c = (long) input;
+	for (i = 1; i < public_key; i++){
+		c *= (long) input;
+		c %= n;
+	}
+	return c;
+}
+
+int decrypt_one(long input, long private_key, long n){
+	int i;
+	long int t = input;
+	for (i = 1;i < private_key; i++){
+		t *= input;
+		t %= n;
+	}
+	return ((int) t);
+}
+
 
 //encrypt an array of char (string) into an array of numbers, map one -> one.
 void get_cipher(char *input, long public_key, long n, long *output, int len) {
 	int i, j,chunk = 3, tid;
-    clock_t start, end;
-	#pragma omp parallel shared(input, output, public_key, n, chunk) private(i,j, tid, start, end)
+    //clock_t start, end;
+	#pragma omp parallel shared(input, output, public_key, n, chunk) private(i,j, tid,)
 	{
 		// if(tid == 0){
 		// 	clock_t start =  clock();
@@ -83,9 +107,9 @@ void get_cipher(char *input, long public_key, long n, long *output, int len) {
 //decrypt an array of numbers
 void decrypt_cipher(long * input, long private_key, long n, char * output, int len) {
 	int i, j, chunk = 3, nthreads, tid;
-	clock_t start, end;
+	//clock_t start, end;
     
-	#pragma omp parallel shared(input, output, private_key, n, chunk, nthreads) private(i, j, tid, start, end)
+	#pragma omp parallel shared(input, output, private_key, n, chunk, nthreads) private(i, j, tid)
 	{
 		// nthreads = omp_get_num_threads();
 		// tid = omp_get_thread_num();
@@ -107,7 +131,7 @@ void decrypt_cipher(long * input, long private_key, long n, char * output, int l
     	// 	printf("decryption time %f\n", time);
 		// }
 	}
-	printf("num thread %d\n", nthreads);
+	//printf("num thread %d\n", nthreads);
 	output[len] = '\0';
     
 }
@@ -129,17 +153,20 @@ void generate_keys(int rank, long *public_key, long *private_key, long*n) {
 	get_private_key(p, q, *public_key, private_key);
 }
 
-// int main()
-// {
-// 	long pub;
-// 	long pri; 
-// 	long n;
+//int main()
+ //{
+
+ 	//long pub;
+ 	//long pri; 
+ 	//long n;
 //     char * text = "that is bullshit, fuck this assignment, what is this, wtf";
 //     long * cipher = (long*)malloc(strlen(text)*sizeof(long));
 // 	long * buff = (long*)malloc(strlen(text)*sizeof(long));
 //     char * text_before =  (char*)malloc(strlen(text)*sizeof(char));;
-// 	generate_keys(3, &pub, &pri, &n);
-
+ 	//generate_keys(3, &pub, &pri, &n);
+ 	//long c = encrypt_one(170, pub, n);
+ 	//int num = decrypt_one(c, pri, n);
+ 	//printf("%d\n", num);
 //     get_cipher(text, pub, n, cipher, strlen(text));
 // 	decrypt_cipher(cipher, pri, n, text_before, strlen(text));
 
@@ -149,4 +176,4 @@ void generate_keys(int rank, long *public_key, long *private_key, long*n) {
 // 	printf("n %ld\n", n);
  
 //     return 0;
-// }
+//}
