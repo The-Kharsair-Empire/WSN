@@ -141,12 +141,12 @@ void decrypt_cipher(long * input, long private_key, long n, char * output, int l
 //literally, generate public and private key, rank can be seened as seed.
 void generate_keys(int rank, long *public_key, long *private_key, long*n) {
 	
-	/*long primeNum[42] = {5821, 5749, 1283, 1303, 1301, 1249, 1543, 1553, 1699, 1567, 2594, 2609, 2617, 2621, 2633, 2647, 2657, 2767, 2003, 2017, 2081,
+/*	long primeNum[42] = {5821, 5749, 1283, 1303, 1301, 1249, 1543, 1553, 1699, 1567, 2594, 2609, 2617, 2621, 2633, 2647, 2657, 2767, 2003, 2017, 2081,
     3001, 3023, 3037, 3109, 3163, 3221, 3191, 3361, 3371, 3529, 3533, 3539, 3671, 3673, 3677, 3793, 3821, 4729, 4831, 4073, 4001};*/
 
     long primeNum[42] = {53, 71, 103, 107, 109, 113, 127, 131, 97, 89, 337, 101, 293, 347, 127, 389, 83, 113, 281, 193, 197,
     257, 211, 227, 229, 233, 223, 239, 241, 269, 263, 257, 251, 241, 271, 277, 307, 311, 331, 313, 103, 193};
-	int size_prime_list = sizeof(primeNum)/sizeof(long);
+
 
 	long p = primeNum[rank*2];
 

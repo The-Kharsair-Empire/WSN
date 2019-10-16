@@ -51,6 +51,9 @@ int main(int argc, char* argv[]){
     getIP(IP);
     generate_keys(rank, &public_key, &private_key, &n);
     int offset;
+    double start_exchange = 0;
+    double end_exchange = 0;
+    double exchange_time = 0;
     if (rank != Base_station) {
         sender_list = (int*)malloc(4*sizeof(int));
         keys = (long*) malloc(4*sizeof(long));
@@ -63,6 +66,7 @@ int main(int argc, char* argv[]){
         col_pos = rank % row_len;
         
         offset = 0;
+        start_exchange = MPI_Wtime();
         if (adjacent_node_up >= 0){ //distributing key and determine adjacent nodes
             //distribute_key_sendfirst(&public_key, &n, keys, n_mods, offset, adjacent_node_up, &stat, Internal_Comm);
             MPI_Send(&public_key, 1, MPI_LONG, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD);
@@ -96,10 +100,24 @@ int main(int argc, char* argv[]){
             sender_list[offset] = adjacent_node_right;
             adjacent_num++;
         }
+
+        end_exchange = MPI_Wtime();
+        exchange_time = end_exchange - start_exchange;
     }
+
+    long node_pub_key = public_key;
+    long node_n = n;
+
+/*    printf("public_key  1 %ld\n", public_key);
+
+    printf("node_public_key  1% ld\n", node_pub_key);*/
 
     MPI_Bcast(&public_key, 1, MPI_INT, Base_station, MPI_COMM_WORLD);// public key is no longer needed for each sensor node after distributing it to the adjacent node, this variable public key will be used to recieved the public key sent by the base station
     MPI_Bcast(&n, 1, MPI_INT, Base_station, MPI_COMM_WORLD);
+
+/*     printf("public_key 2 %ld\n", public_key);
+
+     printf("node_public_key  2 %ld\n", node_pub_key);*/
     //all node sends ip to the base station;
     
     int num_of_time;
@@ -129,23 +147,6 @@ int main(int argc, char* argv[]){
     long code_word3[msgLen];
     long code_word4[msgLen];
 
-    //for each node:
-    /*int total_event = 0;
-    double total_encryption_time;
-    int total_msg_to_adj = 0;
-    int total_msg_from_adj = 0;
-    int total_msg_to_base = 0;
-    double start_encryption;
-    double end_encryption;
-    double encryption_time;
-
-    double total_comm_time_with_adj = 0.0;
-    double start_comm;
-    double end_comm;*/
-
-    
-
-    //for base station
     
 
     char *timestr;
@@ -154,7 +155,7 @@ int main(int argc, char* argv[]){
     if (rank < Base_station) {
 
         int total_event = 0;
-        double total_encryption_time;
+        double total_encryption_time = 0.0;
         int total_msg_to_adj = 0;
         int total_msg_from_adj = 0;
         int total_msg_to_base = 0;
@@ -167,6 +168,9 @@ int main(int argc, char* argv[]){
         double end_comm;
         memset( slider, -1, window_size*adjacent_num*sizeof(int) );
         memset( event_counter, 0, upperbound*adjacent_num*sizeof(int) );
+
+        long code_send;
+        long code_recv;
 
         for (num_of_time = 0; num_of_time < simulation_times; num_of_time++){
         
@@ -182,6 +186,9 @@ int main(int argc, char* argv[]){
 
             if (adjacent_node_up >= 0){ //send and recv random number to and from adjacent_node_up
                 total_msg_to_adj++; total_msg_from_adj++;
+      /*          code_send = encrypt_one(random_num, node_pub_key, node_n);
+                printf("before %d\n", random_num);
+                printf("after %d\n", decrypt_one(code_send, private_key, n));*/
                 MPI_Send(&random_num, 1, MPI_INT, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD);
                 MPI_Recv(recv_buff+offset, 1, MPI_INT, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD, &stat);
                 //send_random_num_sendfirst(&random_num, adjacent_node_up, Internal_Comm, keys, private_key, n_mods, offset, recv_buff, &stat);
@@ -292,12 +299,12 @@ int main(int argc, char* argv[]){
                     }
 
                 }
-                /*free(events);
-                free(event_senders);*/
+                free(events);
+                free(event_senders);
                 
             }
             
-           /* free(recv_buff);*/
+            free(recv_buff);
 
             sleep(0.01);
             
@@ -307,7 +314,7 @@ int main(int argc, char* argv[]){
         cur_time = time(NULL);
         timestr = ctime(&cur_time);
         timestr[strlen(timestr)-1] = '\0';
-        sprintf(msg3, "[Node Termination Log at Node %d (DateTime: %s)]\nNode Summary:\nNode IP:%s\n%d Events detected\n%d Messages sent.\n%d Messages received\nTotal communication time With Adjacent Nodes: %lf\nAdjacent Node:",rank,  timestr, IP, total_event, (total_msg_to_base + total_msg_to_adj), total_msg_from_adj, total_comm_time_with_adj);
+        sprintf(msg3, "[Node Termination Log at Node %d (DateTime: %s)]\nNode Summary:\nNode IP:%s\n%d Events detected\n%d Messages sent.\n%d Messages received\nTotal communication time With Adjacent Nodes: %lf\nTotal Key exchange time with Adjacent Nodes: %lf\nAdjacent Node:",rank,  timestr, IP, total_event, (total_msg_to_base + total_msg_to_adj), total_msg_from_adj, total_comm_time_with_adj, exchange_time);
         for ( event_sender_pointer=0; event_sender_pointer < adjacent_num; event_sender_pointer++){
             sprintf(msgbuff, " Node %d,", sender_list[event_sender_pointer]);
             strcat(msg3, msgbuff);
@@ -317,6 +324,8 @@ int main(int argc, char* argv[]){
 
         get_cipher(msg3, public_key, n, code_word3, strlen(msg3));
         MPI_Send(code_word3, strlen(msg3), MPI_LONG, Base_station, Completion, MPI_COMM_WORLD);
+
+        //send total encryption time and get sum inthe base station
     } else{
         double total_decryption_time = 0.0;
         double decryption_time;
@@ -358,7 +367,7 @@ int main(int argc, char* argv[]){
                 MPI_Recv(code_word2, msgLen, MPI_LONG, stat.MPI_SOURCE, stat.MPI_TAG, MPI_COMM_WORLD, &stat);
                 recv_time = MPI_Wtime();
                 MPI_Get_count(&stat, MPI_LONG, &wordLen);
-                msg = (char*)malloc(sizeof(char)*wordLen);
+                msg = (char*)malloc(sizeof(char)*msgLen);
                 decrypt_cipher(code_word2, private_key, n, msg, wordLen);
                 break_point = 0;
                 item_i = 0;
@@ -391,6 +400,7 @@ int main(int argc, char* argv[]){
             }
             
         }
+        fprintf(fp, "Program Summary:\nSimulation Iteration: %d\nDetection Window Size: %d\nRandom Number Upperbound: %d\nTotal Event Detected During Simulation %d\nTotal Decryption Time: %lf\n", simulation_times, window_size, upperbound, event_num, total_decryption_time);
 
         fclose(fp);
         printf("%d\n", event_num);
