@@ -8,15 +8,14 @@
 int main(int argc, char* argv[]){
     int adjacent_node_up, adjacent_node_down, adjacent_node_left, adjacent_node_right;
     int col_pos;
-    const int row_len = 5, col_len = 4, num_node = 21, simulation_times = 50;
+    const int row_len = 5, col_len = 4, num_node = 21, simulation_times = 10;
     const int Base_station = 20; //grid nodes are node 0 to node 19;
-    const int Summary = 0;
     const int window_size = 3;
-    const int upperbound = 45; //not inclusive, generate random number [0, upperbound)
+    const int upperbound = 30; 
     int rank, size;
     const int Internal_Comm = 0;
     const int Event_Comm = 1;
-    const int Summary_Comm = 2;
+   
     const int Completion = 3;
     FILE *fp;
     
@@ -33,6 +32,7 @@ int main(int argc, char* argv[]){
     long private_key;
     long n;
     long *n_mods;
+    char IP[20];
 
     rc = MPI_Init(&argc, &argv);
 
@@ -48,6 +48,7 @@ int main(int argc, char* argv[]){
         printf ("Error, please set number of process = %d\n", num_node);
         MPI_Finalize();
     }
+    getIP(IP);
     generate_keys(rank, &public_key, &private_key, &n);
     int offset;
     if (rank != Base_station) {
@@ -116,11 +117,10 @@ int main(int argc, char* argv[]){
     long recv;
 
     int event_num = 0;
-    int iteration_event_num = 0;
 
     int event_node;
     int finished_nodes;
-    const int msgLen = 1024;
+    const int msgLen = 512;
     char msg1[msgLen];
     char msg2[msgLen];
     char msg3[msgLen];
@@ -132,11 +132,25 @@ int main(int argc, char* argv[]){
     long code_word4[msgLen];
 
     //for each node:
-    int total_event;
+    int total_event = 0;
     double total_encryption_time;
-    int total_msg_to_adj;
-    int total_msg_from_adj;
-    int total_msg_to_base;
+    int total_msg_to_adj = 0;
+    int total_msg_from_adj = 0;
+    int total_msg_to_base = 0;
+    double start_encryption;
+    double end_encryption;
+    double encryption_time;
+
+   /* double total_comm_time_with_adj;
+    double start_comm;
+    double end_comm;*/
+
+    //for base station
+    double total_decryption_time;
+    double decryption_time;
+    double start_decryption;
+
+    double end_decryption;
 
     char *timestr;
     time_t cur_time;
@@ -149,11 +163,13 @@ int main(int argc, char* argv[]){
         
             seed = rank+num_of_time;
             srand(time(NULL)+seed);
-            random_num = rand() % upperbound;
+            random_num = rand() % upperbound+1;
             // printf("rank %d, rnd num%d\n", rank, random_num);
         
             recv_buff = (int*)malloc(adjacent_num*sizeof(int));
             offset=0;
+
+            /*start_comm = MPI_Wtime();*/
 
             if (adjacent_node_up >= 0){ //send and recv random number to and from adjacent_node_up
                 total_msg_to_adj++; total_msg_from_adj++;
@@ -200,6 +216,9 @@ int main(int argc, char* argv[]){
                /* MPI_Send(&code_word, 1, MPI_LONG, adjacent_node_right, Internal_Comm, MPI_COMM_WORLD);*/
             }
 
+            /*end_comm = MPI_Wtime();
+            total_comm_time_with_adj += (end_comm - start_comm);*/
+
             if (adjacent_num > 2) { 
 
                 events = (int*)calloc(upperbound, sizeof(int));
@@ -225,57 +244,67 @@ int main(int argc, char* argv[]){
                     if (events[rand_num_counter] >= 3){
                         total_event++;
                         total_msg_to_base++;
-                        event_time = MPI_Wtime();
+                        
                         cur_time = time(NULL);
                         timestr = ctime(&cur_time);
                         timestr[strlen(timestr)-1] = '\0';
     
                         //strcat(timestr, "\0");
                         
-                        sprintf(msg1, "[Event Log]\nEvent detected at Node %d at DateTime (%s)", rank, timestr);
-                        /*for ( event_sender_pointer=0; event_sender_pointer < adjacent_num; event_sender_pointer++){
-                            sprintf(msgbuff, "Node %d, ", sender_list[event_sender_pointer]);
-                            strcat(msg1, msgbuff);
-                        }
-                        */
-                        strcat(msg1, "\nAdjacent nodes that triggered the event are: ");
+                        sprintf(msg1, "[Event Log at Node %d (DateTime: %s)]\nAt iteration %d\n", rank, timestr, num_of_time);
+                        
+                        strcat(msg1, "Adjacent nodes that triggered the event are: ");
                         for (event_sender_pointer=0; event_sender_pointer < events[rand_num_counter]; event_sender_pointer++){
                             sprintf(msgbuff, "Node %d, ", event_senders[event_sender_pointer]);
                             strcat(msg1, msgbuff);
                         }
                         strcat(msg1, "\nActivation value is :");
-                        sprintf(msgbuff, "%d\n", rand_num_counter);
+                        sprintf(msgbuff, "%d\n\n", rand_num_counter);
                         strcat(msg1, msgbuff);
-                        sprintf(msg2, "This event was detected at exactly %lf computer time second", event_time);
+                        
+                        start_encryption = MPI_Wtime();
 
                         get_cipher(msg1, public_key, n, code_word1, strlen(msg1));
-                        get_cipher(msg2, public_key, n, code_word2, strlen(msg2));
+                        
 
-
-                       
+                        end_encryption = MPI_Wtime();
+                        /*printf("end_en %lf\n", end_encryption);
+                        printf("start_en %lf\n", start_encryption);*/
+                        event_time = MPI_Wtime();
+                        encryption_time = end_encryption - start_encryption;
+                        //total_encryption_time += encryption_time;
                         MPI_Send(code_word1, strlen(msg1), MPI_LONG, Base_station, Event_Comm, MPI_COMM_WORLD);
+
+                        sprintf(msg2, "%d$%lf$%lf", num_of_time, encryption_time, event_time);//iteration, encryption time, send time
+                        get_cipher(msg2, public_key, n, code_word2, strlen(msg2));
+                        
+                        /*MPI_Send(code_word2, strlen(msg2), MPI_LONG, Base_station, Event_Comm, MPI_COMM_WORLD);*/
+
                     }
+
                 }
+              /*  free(events);
+                free(event_senders);*/
+                
             }
+            
+           /* free(recv_buff);*/
 
             sleep(0.01);
-            if (rank == Summary){
-                total_msg_to_base++;
-              
-         
-                sprintf(msg4,"[Iteration Summary Log]\nthis is end of iteration %d\n", num_of_time);
-                //MPI_Send(msg4, strlen(msg), MPI_CHAR, Base_station, Summary_Comm, MPI_COMM_WORLD);
-            }
+            
         }
-        sleep(0.01);
-        total_msg_to_base;
+        total_msg_to_base++;
         event_time = MPI_Wtime();
         cur_time = time(NULL);
         timestr = ctime(&cur_time);
         timestr[strlen(timestr)-1] = '\0';
-        sprintf(msg3, "[Node Termination Log]");
-            /*\nNode %d terminates at DateTime %s, At exactly %lf computer second\nThis Node Detected totally %d events\nTotal number of messages communicate with Adjacent Node: Send %d, Recv %d\nTotal number of message sent to the base station %d\n Total encryption time is: %lf\n", rank, timestr, event_time, total_event, total_msg_to_adj, total_msg_from_adj, total_msg_to_base, total_encryption_time);
-        */
+        sprintf(msg3, "[Node Termination Log at Node %d (DateTime: %s)]\nNode Summary:\nNode IP:%s\n%d Events detected\n%d Messages sent\n\n",rank,  timestr, IP, total_event, (total_msg_to_base + total_msg_to_adj));
+        /*for ( event_sender_pointer=0; event_sender_pointer < adjacent_num; event_sender_pointer++){
+                            sprintf(msgbuff, "Node %d, ", sender_list[event_sender_pointer]);
+                            strcat(msg1, msgbuff);
+                        }
+                        */
+
         get_cipher(msg3, public_key, n, code_word3, strlen(msg3));
         MPI_Send(code_word3, strlen(msg3), MPI_LONG, Base_station, Completion, MPI_COMM_WORLD);
     } else{
@@ -284,23 +313,20 @@ int main(int argc, char* argv[]){
         char msg;
         fp = fopen("logfile.txt", "w");
         while (finished_nodes < 20){
+            wordLen = 0;
             MPI_Recv(code_word1, msgLen, MPI_LONG, MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &stat);
             MPI_Get_count(&stat, MPI_LONG, &wordLen);
             char *msg = (char*)malloc(sizeof(char)*wordLen);
+            printf("word len %d\n", wordLen);
             decrypt_cipher(code_word1, private_key, n, msg, wordLen);
         
-            //fprintf(fp, "%s", msg);
+            fprintf(fp, "%s", msg);
             printf("%s", msg);
             if (stat.MPI_TAG == Completion){
                 finished_nodes++;
                 // printf("rank %d has finished\n", event_node);
-            } else if (stat.MPI_TAG == Summary_Comm){
-
-                iteration_event_num = 0;
-                
-                // printf("rank %d has an event\n", event_node);
-            } else{
-                iteration_event_num++;
+            }  else{
+            
                 event_num++;
             }
             

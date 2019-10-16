@@ -78,7 +78,7 @@ int decrypt_one(long input, long private_key, long n){
 void get_cipher(char *input, long public_key, long n, long *output, int len) {
 	int i, j,chunk = 3, tid;
     //clock_t start, end;
-	#pragma omp parallel shared(input, output, public_key, n, chunk) private(i,j, tid,)
+	#pragma omp parallel shared(input, output, public_key, n, chunk) private(i,j, tid)
 	{
 		// if(tid == 0){
 		// 	clock_t start =  clock();
@@ -140,13 +140,17 @@ void decrypt_cipher(long * input, long private_key, long n, char * output, int l
 
 //literally, generate public and private key, rank can be seened as seed.
 void generate_keys(int rank, long *public_key, long *private_key, long*n) {
-	long primeNum[] = {5821, 5749, 223, 239, 241, 269, 263, 257, 251, 241, 271, 277, 307, 311, 1283, 1303, 1301, 1249, 1543, 53, 71, 103, 107, 109, 113, 127, 131, 97, 89, 1553, 1699, 1567, 2594, 2609, 2617, 2621, 2633, 2647, 2657, 2767, 2003, 2017, 2081,
-	3001, 3023, 3037, 3109, 3163, 337, 101, 257, 211, 227, 229, 233,  331, 313, 103, 193, 293, 347, 127, 389, 83, 113, 281, 193, 197, 3221, 3191, 3361, 3371, 3529, 3533, 3539, 3671, 3673, 3677, 3793, 3821, 4729, 4831, 4073, 4001};
+	
+	/*long primeNum[42] = {5821, 5749, 1283, 1303, 1301, 1249, 1543, 1553, 1699, 1567, 2594, 2609, 2617, 2621, 2633, 2647, 2657, 2767, 2003, 2017, 2081,
+    3001, 3023, 3037, 3109, 3163, 3221, 3191, 3361, 3371, 3529, 3533, 3539, 3671, 3673, 3677, 3793, 3821, 4729, 4831, 4073, 4001};*/
+
+    long primeNum[42] = {53, 71, 103, 107, 109, 113, 127, 131, 97, 89, 337, 101, 293, 347, 127, 389, 83, 113, 281, 193, 197,
+    257, 211, 227, 229, 233, 223, 239, 241, 269, 263, 257, 251, 241, 271, 277, 307, 311, 331, 313, 103, 193};
 	int size_prime_list = sizeof(primeNum)/sizeof(long);
-	srand(time(0)+rank);
-	long p = primeNum[rand() %size_prime_list];
-	srand(time(0)+rank+1);
-	long q = primeNum[rand() %size_prime_list];
+
+	long p = primeNum[rank*2];
+
+	long q = primeNum[rank*2+1];
 	*n = p*q;
 
 	get_public_key(p, q, public_key);
