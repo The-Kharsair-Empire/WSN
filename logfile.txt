@@ -1,195 +1,188 @@
-[Event Log at Node 13 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 3
-Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
-Activation value is :25
+[Event Log at Node 5 (DateTime: Wed Oct 16 22:51:44 2019)]
+At iteration 2
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 21
+Encryption time: 0.000375
+Decryption time 0.090052
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.091231
 
-[Event Log at Node 8 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 4
-Adjacent nodes that triggered the event are: Node 13, Node 7, Node 9, 
-Activation value is :25
-
-[Node Termination Log at Node 1 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:252.127.0.0
-0 Events detected
-31 Messages sent
-
-[Node Termination Log at Node 2 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:252.127.0.0
-0 Events detected
-31 Messages sent
-
-[Event Log at Node 3 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 9
-Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
-Activation value is :25
-
-[Node Termination Log at Node 4 (DateTime: Wed Oct 16 21:09:18 2019)]
+[Node Termination Log at Node 1 (DateTime: Wed Oct 16 22:51:44 2019)]
 Node Summary:
 Node IP:255.127.0.0
 0 Events detected
-21 Messages sent
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.033279
+Adjacent Node: Node 6, Node 0, Node 2,
 
-[Node Termination Log at Node 5 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:254.127.0.0
-0 Events detected
-31 Messages sent
-
-[Event Log at Node 6 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 6
-Adjacent nodes that triggered the event are: Node 11, Node 5, Node 7, 
-Activation value is :25
-
-[Event Log at Node 7 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 5
-Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
-Activation value is :25
-
-[Event Log at Node 8 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 8
-Adjacent nodes that triggered the event are: Node 3, Node 7, Node 9, 
-Activation value is :25
-
-[Node Termination Log at Node 9 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:254.127.0.0
-0 Events detected
-31 Messages sent
-
-[Node Termination Log at Node 10 (DateTime: Wed Oct 16 21:09:18 2019)]
+[Node Termination Log at Node 2 (DateTime: Wed Oct 16 22:51:44 2019)]
 Node Summary:
 Node IP:255.127.0.0
 0 Events detected
-31 Messages sent
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.033186
+Adjacent Node: Node 7, Node 1, Node 3,
 
-[Event Log at Node 11 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 5
-Adjacent nodes that triggered the event are: Node 6, Node 10, Node 12, 
-Activation value is :25
-
-[Event Log at Node 12 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 4
-Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
-Activation value is :25
-
-[Event Log at Node 13 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 5
-Adjacent nodes that triggered the event are: Node 18, Node 12, Node 14, 
-Activation value is :24
-
-[Node Termination Log at Node 15 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:252.127.0.0
-0 Events detected
-21 Messages sent
-
-[Event Log at Node 16 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 8
-Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
-Activation value is :24
-
-[Event Log at Node 17 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 7
-Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
-Activation value is :24
-
-[Event Log at Node 18 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 6
-Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
-Activation value is :24
-
-[Node Termination Log at Node 19 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:254.127.0.0
-0 Events detected
-21 Messages sent
-
-[Node Termination Log at Node 0 (DateTime: Wed Oct 16 21:09:18 2019)]
+[Node Termination Log at Node 3 (DateTime: Wed Oct 16 22:51:44 2019)]
 Node Summary:
 Node IP:255.127.0.0
 0 Events detected
-21 Messages sent
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.031766
+Adjacent Node: Node 8, Node 2, Node 4,
 
-[Node Termination Log at Node 3 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:252.127.0.0
-1 Events detected
-32 Messages sent
-
-[Node Termination Log at Node 6 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:253.127.0.0
-1 Events detected
-42 Messages sent
-
-[Event Log at Node 7 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 9
-Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
-Activation value is :25
-
-[Node Termination Log at Node 8 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:252.127.0.0
-2 Events detected
-43 Messages sent
-
-[Event Log at Node 11 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 7
-Adjacent nodes that triggered the event are: Node 16, Node 10, Node 12, 
-Activation value is :24
-
-[Event Log at Node 12 (DateTime: Wed Oct 16 21:09:18 2019)]
-At iteration 6
-Adjacent nodes that triggered the event are: Node 17, Node 11, Node 13, 
-Activation value is :24
-
-[Node Termination Log at Node 13 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:255.127.0.0
-2 Events detected
-43 Messages sent
-
-[Node Termination Log at Node 16 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:252.127.0.0
-1 Events detected
-32 Messages sent
-
-[Node Termination Log at Node 17 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:255.127.0.0
-1 Events detected
-32 Messages sent
-
-[Node Termination Log at Node 11 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:252.127.0.0
-2 Events detected
-43 Messages sent
-
-[Node Termination Log at Node 12 (DateTime: Wed Oct 16 21:09:18 2019)]
-Node Summary:
-Node IP:255.127.0.0
-2 Events detected
-43 Messages sent
-
-[Node Termination Log at Node 14 (DateTime: Wed Oct 16 21:09:18 2019)]
+[Node Termination Log at Node 4 (DateTime: Wed Oct 16 22:51:44 2019)]
 Node Summary:
 Node IP:253.127.0.0
 0 Events detected
-31 Messages sent
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 0.031972
+Adjacent Node: Node 9, Node 3,
 
-[Node Termination Log at Node 18 (DateTime: Wed Oct 16 21:09:18 2019)]
+[Node Termination Log at Node 5 (DateTime: Wed Oct 16 22:51:44 2019)]
 Node Summary:
-Node IP:252.127.0.0
+Node IP:255.127.0.0
 1 Events detected
-32 Messages sent
+32 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.032407
+Adjacent Node: Node 0, Node 10, Node 6,
 
-[Node Termination Log at Node 7 (DateTime: Wed Oct 16 21:09:18 2019)]
+[Node Termination Log at Node 6 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:255.127.0.0
+0 Events detected
+41 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.019384
+Adjacent Node: Node 1, Node 11, Node 5, Node 7,
+
+[Node Termination Log at Node 7 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:254.127.0.0
+0 Events detected
+41 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.018615
+Adjacent Node: Node 2, Node 12, Node 6, Node 8,
+
+[Node Termination Log at Node 8 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:255.127.0.0
+0 Events detected
+41 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.018332
+Adjacent Node: Node 3, Node 13, Node 7, Node 9,
+
+[Node Termination Log at Node 9 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:253.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.018637
+Adjacent Node: Node 4, Node 14, Node 8,
+
+[Node Termination Log at Node 10 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:254.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.030677
+Adjacent Node: Node 5, Node 15, Node 11,
+
+[Node Termination Log at Node 11 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:253.127.0.0
+0 Events detected
+41 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.012716
+Adjacent Node: Node 6, Node 16, Node 10, Node 12,
+
+[Node Termination Log at Node 12 (DateTime: Wed Oct 16 22:51:44 2019)]
 Node Summary:
 Node IP:252.127.0.0
-2 Events detected
-43 Messages sent
+0 Events detected
+41 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.017446
+Adjacent Node: Node 7, Node 17, Node 11, Node 13,
+
+[Node Termination Log at Node 13 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:255.127.0.0
+0 Events detected
+41 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.017447
+Adjacent Node: Node 8, Node 18, Node 12, Node 14,
+
+[Node Termination Log at Node 14 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:252.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.014425
+Adjacent Node: Node 9, Node 19, Node 13,
+
+[Node Termination Log at Node 15 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:253.127.0.0
+0 Events detected
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 0.027477
+Adjacent Node: Node 10, Node 16,
+
+[Node Termination Log at Node 16 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:254.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.014317
+Adjacent Node: Node 11, Node 15, Node 17,
+
+[Node Termination Log at Node 17 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:254.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.011547
+Adjacent Node: Node 12, Node 16, Node 18,
+
+[Node Termination Log at Node 18 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:254.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.013303
+Adjacent Node: Node 13, Node 17, Node 19,
+
+[Node Termination Log at Node 19 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:254.127.0.0
+0 Events detected
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 0.012988
+Adjacent Node: Node 14, Node 18,
+
+[Node Termination Log at Node 0 (DateTime: Wed Oct 16 22:51:44 2019)]
+Node Summary:
+Node IP:254.127.0.0
+0 Events detected
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 0.035111
+Adjacent Node: Node 5, Node 1,
 

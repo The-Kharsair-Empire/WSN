@@ -21,6 +21,17 @@ void getIP(char *IP){
 
 }
 
+char* substring(int start, int end, char a_string[]){
+    char *buffer = (char*) malloc(sizeof(char)*(end-start+1));
+    int i;
+    int j = 0;
+    for(i = start; i< end; i++){
+        buffer[j++] = a_string[i];
+    }
+    buffer[j] = '\0';
+    return buffer;
+}
+
 void reverse(char *str, int len) 
 { 
     int i=0, j=len-1, temp; 

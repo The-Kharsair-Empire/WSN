@@ -13,8 +13,8 @@ run: compile
 	mpirun -n 21 a.out
 
 compile:
-	mpicc -c WSN.c functions.c node_functions.c encryption.c -lm
-	mpicc -fopenmp WSN.o functions.o  node_functions.o encryption.o -lm
+	@#mpicc -c WSN.c functions.c node_functions.c encryption.c -lm
+	mpicc -fopenmp  functions.c encryption.c WSN.c  node_functions.c -lm
 
 # mainapp: WSN.o functions.o
 # 	$(MPI) WSN.o functions.o encryption.o

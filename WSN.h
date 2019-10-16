@@ -24,6 +24,7 @@ void getIP(char *IP);
 void reverse(char *str, int len);
 int intToStr(int x, char str[], int significantNum);
 void ftoStr(double n, char *res, int significantNum);
+char* substring(int start, int end, char a_string[]);
 
 void distribute_key_sendfirst(long * public_key, long * n, long *keys, long *n_mods, int offset, int to_and_from, MPI_Status * stat, int tag);
 void distribute_key_recvfirst(long * public_key, long * n, long *keys, long *n_mods, int offset, int to_and_from, MPI_Status * stat, int tag);
