@@ -131,22 +131,22 @@ int main(int argc, char* argv[]){
     int event_sender_pointer;
     int slider_pointer;
     double event_time;
-    long code_word;
+
     long recv;
 
     int event_num = 0;
 
     const int msgLen = 412;
     char msg1[msgLen];
-    char msg2[msgLen];
+ /*   char msg2[msgLen];
     char msg3[msgLen];
-    char msg4[msgLen];
+    char msg4[msgLen];*/
     char msgbuff[msgLen];
     long code_word1[msgLen];
-    long code_word2[msgLen];
+  /*  long code_word2[msgLen];
     long code_word3[msgLen];
     long code_word4[msgLen];
-
+*/
     char *timestr;
     time_t cur_time;
 
@@ -282,10 +282,10 @@ int main(int argc, char* argv[]){
                         total_encryption_time += encryption_time;
                         MPI_Send(code_word1, strlen(msg1), MPI_LONG, Base_station, Event_Comm, MPI_COMM_WORLD);
 
-                        sprintf(msg2, "%d$%lf$%lf$", num_of_time, encryption_time, event_time);//iteration, encryption time, send time
-                        get_cipher(msg2, public_key, n, code_word2, strlen(msg2));
+                        sprintf(msg1, "%d$%lf$%lf$", num_of_time, encryption_time, event_time);//iteration, encryption time, send time
+                        get_cipher(msg1, public_key, n, code_word1, strlen(msg1));
                         
-                        MPI_Send(code_word2, strlen(msg2), MPI_LONG, Base_station, Event_Comm, MPI_COMM_WORLD);
+                        MPI_Send(code_word1, strlen(msg1), MPI_LONG, Base_station, Event_Comm, MPI_COMM_WORLD);
 
                     }
 
@@ -305,16 +305,16 @@ int main(int argc, char* argv[]){
         cur_time = time(NULL);
         timestr = ctime(&cur_time);
         timestr[strlen(timestr)-1] = '\0';
-        sprintf(msg3, "[Node Termination Log at Node %d (DateTime: %s)]\nNode Summary:\nNode IP:%s\n%d Events detected\n%d Messages sent.\n%d Messages received\nTotal communication time With Adjacent Nodes: %lf\nTotal Key exchange time with Adjacent Nodes: %lf\nAdjacent Node:",rank,  timestr, IP, total_event, (total_msg_to_base + total_msg_to_adj), total_msg_from_adj, total_comm_time_with_adj, exchange_time);
+        sprintf(msg1, "[Node Termination Log at Node %d (DateTime: %s)]\nNode Summary:\nNode IP:%s\n%d Events detected\n%d Messages sent.\n%d Messages received\nTotal communication time With Adjacent Nodes: %lf\nTotal Key exchange time with Adjacent Nodes: %lf\nAdjacent Node:",rank,  timestr, IP, total_event, (total_msg_to_base + total_msg_to_adj), total_msg_from_adj, total_comm_time_with_adj, exchange_time);
         for ( event_sender_pointer=0; event_sender_pointer < adjacent_num; event_sender_pointer++){
             sprintf(msgbuff, " Node %d,", sender_list[event_sender_pointer]);
-            strcat(msg3, msgbuff);
+            strcat(msg1, msgbuff);
         }
                         
-        strcat(msg3, "\n\n");
+        strcat(msg1, "\n\n");
 
-        get_cipher(msg3, public_key, n, code_word3, strlen(msg3));
-        MPI_Send(code_word3, strlen(msg3), MPI_LONG, Base_station, Completion, MPI_COMM_WORLD);
+        get_cipher(msg1, public_key, n, code_word1, strlen(msg1));
+        MPI_Send(code_word1, strlen(msg1), MPI_LONG, Base_station, Completion, MPI_COMM_WORLD);
 
         //send total encryption time and get sum inthe base station
     } else{
@@ -355,11 +355,11 @@ int main(int argc, char* argv[]){
                 finished_nodes++;
                 // printf("rank %d has finished\n", event_node);
             }  else{
-                MPI_Recv(code_word2, msgLen, MPI_LONG, stat.MPI_SOURCE, stat.MPI_TAG, MPI_COMM_WORLD, &stat);
+                MPI_Recv(code_word1, msgLen, MPI_LONG, stat.MPI_SOURCE, stat.MPI_TAG, MPI_COMM_WORLD, &stat);
                 recv_time = MPI_Wtime();
                 MPI_Get_count(&stat, MPI_LONG, &wordLen);
                 msg = (char*)malloc(sizeof(char)*msgLen);
-                decrypt_cipher(code_word2, private_key, n, msg, wordLen);
+                decrypt_cipher(code_word1, private_key, n, msg, wordLen);
                 break_point = 0;
                 item_i = 0;
                 for (int i =0;i < wordLen; i++){
