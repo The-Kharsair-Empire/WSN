@@ -136,7 +136,7 @@ int main(int argc, char* argv[]){
 
     int event_num = 0;
 
-    const int msgLen = 512;
+    const int msgLen = 412;
     char msg1[msgLen];
     char msg2[msgLen];
     char msg3[msgLen];
@@ -146,8 +146,6 @@ int main(int argc, char* argv[]){
     long code_word2[msgLen];
     long code_word3[msgLen];
     long code_word4[msgLen];
-
-    
 
     char *timestr;
     time_t cur_time;
@@ -166,11 +164,12 @@ int main(int argc, char* argv[]){
         double total_comm_time_with_adj = 0.0;
         double start_comm;
         double end_comm;
+
         memset( slider, -1, window_size*adjacent_num*sizeof(int) );
         memset( event_counter, 0, upperbound*adjacent_num*sizeof(int) );
 
-        long code_send;
-        long code_recv;
+        long code_send = 0;
+        long code_recv = 0;
 
         for (num_of_time = 0; num_of_time < simulation_times; num_of_time++){
         
@@ -186,50 +185,42 @@ int main(int argc, char* argv[]){
 
             if (adjacent_node_up >= 0){ //send and recv random number to and from adjacent_node_up
                 total_msg_to_adj++; total_msg_from_adj++;
-      /*          code_send = encrypt_one(random_num, node_pub_key, node_n);
-                printf("before %d\n", random_num);
-                printf("after %d\n", decrypt_one(code_send, private_key, n));*/
+
+                code_send = encrypt_one(random_num, keys[offset], n_mods[offset]);
                 MPI_Send(&random_num, 1, MPI_INT, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD);
                 MPI_Recv(recv_buff+offset, 1, MPI_INT, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD, &stat);
-                //send_random_num_sendfirst(&random_num, adjacent_node_up, Internal_Comm, keys, private_key, n_mods, offset, recv_buff, &stat);
-                /*code_word = encrypt_one(random_num, keys[offset], n_mods[offset]);*/
-              /*  MPI_Send(&code_word, 1, MPI_LONG, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD);
-                MPI_Recv(&code_word, 1, MPI_LONG, adjacent_node_up, Internal_Comm, MPI_COMM_WORLD, &stat);*/
-              /*  recv_buff[offset] = decrypt_one(code_word, private_key, n);*/
+                code_recv = decrypt_one(code_send, private_key, n);
+
             
                 offset++;
             }
             if (adjacent_node_down < size-1){//send and recv random number to and from adjacent_node_down
                 total_msg_to_adj++; total_msg_from_adj++;
                 MPI_Recv(recv_buff+offset, 1, MPI_INT, adjacent_node_down, Internal_Comm, MPI_COMM_WORLD, &stat);
+                code_recv = decrypt_one(code_send, private_key, n);
                 MPI_Send(&random_num, 1, MPI_INT, adjacent_node_down, Internal_Comm, MPI_COMM_WORLD);
-        
-               /* MPI_Recv(&recv, 1, MPI_LONG, adjacent_node_down, Internal_Comm, MPI_COMM_WORLD, &stat);*/
-               /* recv_buff[offset] = decrypt_one(recv, private_key, n);
-                code_word = encrypt_one(random_num, keys[offset], n_mods[offset]);*/
-                /*MPI_Send(&code_word, 1, MPI_LONG, adjacent_node_down, Internal_Comm, MPI_COMM_WORLD);*/
+                code_send = encrypt_one(random_num, keys[offset], n_mods[offset]);
+ 
                 offset++;
             }
             if (/*adjacent_node_left >= 0 &&*/ col_pos > 0){//send and recv random number to and from adjacent_node_left
                 total_msg_to_adj++; total_msg_from_adj++;
+                code_send = encrypt_one(random_num, keys[offset], n_mods[offset]);
                 MPI_Send(&random_num, 1, MPI_INT, adjacent_node_left, Internal_Comm, MPI_COMM_WORLD);
                 MPI_Recv(recv_buff+offset, 1, MPI_INT, adjacent_node_left, Internal_Comm, MPI_COMM_WORLD, &stat);
-                /*code_word = encrypt_one(random_num, keys[offset], n_mods[offset]);*/
-                /*MPI_Send(&code_word, 1, MPI_LONG, adjacent_node_left, Internal_Comm, MPI_COMM_WORLD);
-                MPI_Recv(&code_word, 1, MPI_LONG, adjacent_node_left, Internal_Comm, MPI_COMM_WORLD, &stat);*/
-                /*recv_buff[offset] = decrypt_one(code_word, private_key, n);*/
+                code_recv = decrypt_one(code_send, private_key, n);
+
                
                 offset++;
             }
 
             if (/*adjacent_node_right < size-1 && */col_pos < row_len-1){//send and recv random number to and from adjacent_node_right
                 total_msg_to_adj++; total_msg_from_adj++;
+                code_recv = decrypt_one(code_send, private_key, n);
                 MPI_Recv(recv_buff+offset, 1, MPI_INT, adjacent_node_right, Internal_Comm, MPI_COMM_WORLD, &stat);
                 MPI_Send(&random_num, 1, MPI_INT, adjacent_node_right, Internal_Comm, MPI_COMM_WORLD);
-               /* MPI_Recv(&recv, 1, MPI_LONG, adjacent_node_right, Internal_Comm, MPI_COMM_WORLD, &stat);*/
-                /*recv_buff[offset] = decrypt_one(recv, private_key, n);
-                code_word = encrypt_one(random_num, keys[offset], n_mods[offset]);*/
-               /* MPI_Send(&code_word, 1, MPI_LONG, adjacent_node_right, Internal_Comm, MPI_COMM_WORLD);*/
+                code_send = encrypt_one(random_num, keys[offset], n_mods[offset]);
+
             }
 
             end_comm = MPI_Wtime();
