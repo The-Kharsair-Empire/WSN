@@ -1,318 +1,2648 @@
-[Event Log at Node 1 (DateTime: Thu Oct 17 00:42:06 2019)]
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 1
+Adjacent nodes that triggered the event are: Node 13, Node 7, Node 9, 
+Activation value is: 2
+Encryption time: 0.010535
+Decryption time 0.118020
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.118810
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 2
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 4
+Encryption time: 0.009563
+Decryption time 0.119238
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.240810
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 11, Node 5, Node 7, 
+Activation value is: 2
+Encryption time: 0.015427
+Decryption time 0.075398
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.268378
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 2
+Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
+Activation value is: 2
+Encryption time: 0.009891
+Decryption time 0.072247
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.406229
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 2
+Adjacent nodes that triggered the event are: Node 13, Node 7, Node 9, 
+Activation value is: 2
+Encryption time: 0.001366
+Decryption time 0.073476
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.496979
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
+Activation value is: 2
+Encryption time: 0.010920
+Decryption time 0.068361
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.506578
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 2
+Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
+Activation value is: 2
+Encryption time: 0.012116
+Decryption time 0.069597
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.608622
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 4
+Encryption time: 0.000866
+Decryption time 0.069642
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.708874
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 1, Node 5, Node 7, 
+Activation value is: 4
+Encryption time: 0.000413
+Decryption time 0.060773
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.724444
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 2
+Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
+Activation value is: 4
+Encryption time: 0.000824
+Decryption time 0.055976
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.870514
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 13, Node 7, Node 9, 
+Activation value is: 2
+Encryption time: 0.000272
+Decryption time 0.067313
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.906509
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 2
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 14, 
+Activation value is: 4
+Encryption time: 0.003992
+Decryption time 0.066897
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.999297
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
+Activation value is: 2
+Encryption time: 0.000433
+Decryption time 0.132530
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.125855
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
+Activation value is: 2
+Encryption time: 0.005266
+Decryption time 0.103199
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.255289
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
+Activation value is: 4
+Encryption time: 0.000395
+Decryption time 0.107432
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.393820
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 14, 
+Activation value is: 4
+Encryption time: 0.001390
+Decryption time 0.075646
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.469790
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 13, 
+Activation value is: 4
+Encryption time: 0.001249
+Decryption time 0.064712
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.543159
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 4
+Encryption time: 0.025374
+Decryption time 0.058829
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.596219
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 4
+Encryption time: 0.000346
+Decryption time 0.059419
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.684235
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 3
+Encryption time: 0.008045
+Decryption time 0.066006
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.753661
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 11, Node 5, Node 7, 
+Activation value is: 2
+Encryption time: 0.003603
+Decryption time 0.065688
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.833465
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
+Activation value is: 2
+Encryption time: 0.000405
+Decryption time 0.066005
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.918290
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 2
+Encryption time: 0.000619
+Decryption time 0.073896
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.001424
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 3
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 2
+Encryption time: 0.016809
+Decryption time 0.070710
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.090760
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
 At iteration 5
 Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
-Activation value is: 17
-Encryption time: 0.011912
-Decryption time 0.079240
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.079789
+Activation value is: 4
+Encryption time: 0.000490
+Decryption time 0.073809
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.152558
 
-[Event Log at Node 2 (DateTime: Thu Oct 17 00:42:06 2019)]
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
 At iteration 5
 Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
-Activation value is: 20
-Encryption time: 0.013992
-Decryption time 0.062554
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.149872
+Activation value is: 3
+Encryption time: 0.007145
+Decryption time 0.069978
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.219509
 
-[Event Log at Node 7 (DateTime: Thu Oct 17 00:42:06 2019)]
-At iteration 6
-Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
-Activation value is: 29
-Encryption time: 0.021482
-Decryption time 0.045031
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.128221
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 4
+Encryption time: 0.000696
+Decryption time 0.073174
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.313263
 
-[Event Log at Node 8 (DateTime: Thu Oct 17 00:42:06 2019)]
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 11, Node 5, Node 7, 
+Activation value is: 3
+Encryption time: 0.001656
+Decryption time 0.067090
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.404659
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
+Activation value is: 3
+Encryption time: 0.000394
+Decryption time 0.067557
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.485151
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 3, Node 7, Node 9, 
+Activation value is: 3
+Encryption time: 0.000267
+Decryption time 0.067676
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.566539
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 2
+Encryption time: 0.001651
+Decryption time 0.073728
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.646480
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 6, Node 10, Node 12, 
+Activation value is: 2
+Encryption time: 0.011310
+Decryption time 0.067708
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.704407
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
+Activation value is: 2
+Encryption time: 0.000406
+Decryption time 0.067166
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.791504
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
+Activation value is: 2
+Encryption time: 0.000408
+Decryption time 0.065297
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.869921
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 4
+Encryption time: 0.012369
+Decryption time 0.078691
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.951936
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 4
+Encryption time: 0.000988
+Decryption time 0.063740
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.025982
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
 At iteration 5
-Adjacent nodes that triggered the event are: Node 13, Node 7, Node 9, 
-Activation value is: 29
-Encryption time: 0.037963
-Decryption time 0.041613
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.202566
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 2
+Encryption time: 0.000398
+Decryption time 0.066975
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.100504
 
-[Event Log at Node 13 (DateTime: Thu Oct 17 00:42:06 2019)]
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 1, Node 5, Node 7, 
+Activation value is: 4
+Encryption time: 0.001230
+Decryption time 0.067684
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.194302
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 4
+Encryption time: 0.000449
+Decryption time 0.077324
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.286182
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 4
+Encryption time: 0.001787
+Decryption time 0.097237
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.385291
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 12, 
+Activation value is: 4
+Encryption time: 0.000697
+Decryption time 0.069456
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.453858
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 13, 
+Activation value is: 4
+Encryption time: 0.000456
+Decryption time 0.071909
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.542171
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, Node 14, 
+Activation value is: 4
+Encryption time: 0.000418
+Decryption time 0.079075
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.626841
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 5
+Encryption time: 0.000458
+Decryption time 0.073411
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.702886
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 3
+Encryption time: 0.000392
+Decryption time 0.065865
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.776598
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 4
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, 
+Activation value is: 7
+Encryption time: 0.000398
+Decryption time 0.067051
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.865450
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 4
+Encryption time: 0.000561
+Decryption time 0.071495
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.946836
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 4
+Encryption time: 0.000613
+Decryption time 0.067569
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.024494
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 11, Node 5, Node 7, 
+Activation value is: 2
+Encryption time: 0.011266
+Decryption time 0.063663
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.081700
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 2
+Encryption time: 0.000421
+Decryption time 0.076302
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.175830
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 2
+Encryption time: 0.000280
+Decryption time 0.083047
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.261607
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 2
+Encryption time: 0.000293
+Decryption time 0.098323
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.370818
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 6, Node 10, Node 12, 
+Activation value is: 2
+Encryption time: 0.000410
+Decryption time 0.072377
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.439384
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
+Activation value is: 2
+Encryption time: 0.000409
+Decryption time 0.068640
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.519717
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 4
+Encryption time: 0.000233
+Decryption time 0.065048
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.607690
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 3
+Encryption time: 0.014316
+Decryption time 0.070566
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.668003
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 2
+Encryption time: 0.000883
+Decryption time 0.077606
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.770386
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 2
+Encryption time: 0.000403
+Decryption time 0.068676
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.852876
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 3
+Encryption time: 0.010885
+Decryption time 0.065926
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.909409
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 3
+Encryption time: 0.000365
+Decryption time 0.076455
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.023207
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
+Activation value is: 3
+Encryption time: 0.000428
+Decryption time 0.074428
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.127097
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 3, Node 7, Node 9, 
+Activation value is: 3
+Encryption time: 0.001567
+Decryption time 0.073997
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.206594
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 4
+Encryption time: 0.000286
+Decryption time 0.068183
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.279085
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 4
+Encryption time: 0.025153
+Decryption time 0.123554
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.390610
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 12, 
+Activation value is: 4
+Encryption time: 0.000399
+Decryption time 0.118440
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.542732
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, Node 13, 
+Activation value is: 4
+Encryption time: 0.000418
+Decryption time 0.086054
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.634463
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
 At iteration 5
 Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
-Activation value is: 29
-Encryption time: 0.008873
-Decryption time 0.039510
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.248688
+Activation value is: 2
+Encryption time: 0.000431
+Decryption time 0.072540
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.712020
 
-[Event Log at Node 12 (DateTime: Thu Oct 17 00:42:06 2019)]
-At iteration 6
-Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
-Activation value is: 29
-Encryption time: 0.010791
-Decryption time 0.026881
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.244502
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 4
+Encryption time: 0.028936
+Decryption time 0.067312
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.772678
 
-[Node Termination Log at Node 15 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:254.127.0.0
-0 Events detected
-21 Messages sent.
-20 Messages received
-Total communication time With Adjacent Nodes: 0.279493
-Total Key exchange time with Adjacent Nodes: 0.017224
-Adjacent Node: Node 10, Node 16,
-
-[Node Termination Log at Node 16 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:254.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.259970
-Total Key exchange time with Adjacent Nodes: 0.016330
-Adjacent Node: Node 11, Node 15, Node 17,
-
-[Event Log at Node 18 (DateTime: Thu Oct 17 00:42:06 2019)]
-At iteration 8
-Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
-Activation value is: 19
-Encryption time: 0.009412
-Decryption time 0.030907
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.241290
-
-[Node Termination Log at Node 0 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:252.127.0.0
-0 Events detected
-21 Messages sent.
-20 Messages received
-Total communication time With Adjacent Nodes: 0.272959
-Total Key exchange time with Adjacent Nodes: 0.009464
-Adjacent Node: Node 5, Node 1,
-
-[Event Log at Node 1 (DateTime: Thu Oct 17 00:42:06 2019)]
-At iteration 9
-Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
-Activation value is: 12
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 5
 Encryption time: 0.000240
-Decryption time 0.024873
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.355941
+Decryption time 0.069410
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.872365
 
-[Node Termination Log at Node 2 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:252.127.0.0
-1 Events detected
-32 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.258104
-Total Key exchange time with Adjacent Nodes: 0.010658
-Adjacent Node: Node 7, Node 1, Node 3,
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 4
+Encryption time: 0.000412
+Decryption time 0.069069
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.931180
 
-[Node Termination Log at Node 3 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:255.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.263468
-Total Key exchange time with Adjacent Nodes: 0.009251
-Adjacent Node: Node 8, Node 2, Node 4,
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 3
+Encryption time: 0.005081
+Decryption time 0.073077
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.019661
 
-[Node Termination Log at Node 4 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:255.127.0.0
-0 Events detected
-21 Messages sent.
-20 Messages received
-Total communication time With Adjacent Nodes: 0.275637
-Total Key exchange time with Adjacent Nodes: 0.017163
-Adjacent Node: Node 9, Node 3,
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 3
+Encryption time: 0.002817
+Decryption time 0.077735
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.108316
 
-[Node Termination Log at Node 5 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:252.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.268950
-Total Key exchange time with Adjacent Nodes: 0.017325
-Adjacent Node: Node 0, Node 10, Node 6,
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 4
+Encryption time: 0.000327
+Decryption time 0.076884
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.200673
 
-[Event Log at Node 6 (DateTime: Thu Oct 17 00:42:06 2019)]
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 4
+Encryption time: 0.000449
+Decryption time 0.067978
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.293121
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, 
+Activation value is: 4
+Encryption time: 0.000251
+Decryption time 0.066354
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.366802
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 16, Node 10, Node 12, 
+Activation value is: 7
+Encryption time: 0.000437
+Decryption time 0.159511
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.526023
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, 
+Activation value is: 7
+Encryption time: 0.000398
+Decryption time 0.105401
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.646843
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 7
+Encryption time: 0.002693
+Decryption time 0.078935
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.735120
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 4
+Encryption time: 0.000515
+Decryption time 0.061062
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.800578
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 4
+Encryption time: 0.000420
+Decryption time 0.071301
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.899300
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 2
+Encryption time: 0.003181
+Decryption time 0.071517
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.951558
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 2
+Encryption time: 0.000477
+Decryption time 0.063435
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.036796
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 2
+Encryption time: 0.000241
+Decryption time 0.079217
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.124026
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 3
+Encryption time: 0.000831
+Decryption time 0.078407
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.214985
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
+Activation value is: 3
+Encryption time: 0.000417
+Decryption time 0.071555
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.298094
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 3, Node 7, Node 9, 
+Activation value is: 3
+Encryption time: 0.002163
+Decryption time 0.073880
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.376379
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 4
+Encryption time: 0.000327
+Decryption time 0.074519
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.463563
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 4
+Encryption time: 0.000471
+Decryption time 0.117644
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.598939
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, 
+Activation value is: 4
+Encryption time: 0.000231
+Decryption time 0.113590
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.729873
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, 
+Activation value is: 5
+Encryption time: 0.000500
+Decryption time 0.050958
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.786218
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
+Activation value is: 7
+Encryption time: 0.000501
+Decryption time 0.062803
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.865907
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 2
+Encryption time: 0.000963
+Decryption time 0.070723
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.904079
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 2
+Encryption time: 0.009083
+Decryption time 0.063487
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 7.968884
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 2
+Encryption time: 0.000477
+Decryption time 0.060082
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.045943
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 3, Node 7, Node 9, 
+Activation value is: 3
+Encryption time: 0.000216
+Decryption time 0.063451
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.119714
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 3
+Encryption time: 0.000321
+Decryption time 0.063264
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.185605
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
+Activation value is: 3
+Encryption time: 0.000396
+Decryption time 0.067020
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.270421
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 4
+Encryption time: 0.000251
+Decryption time 0.063625
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.337888
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 4
+Encryption time: 0.000335
+Decryption time 0.068655
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.406356
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 4
+Encryption time: 0.000466
+Decryption time 0.066436
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.487886
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 3, Node 7, Node 9, 
+Activation value is: 6
+Encryption time: 0.000212
+Decryption time 0.065512
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.562373
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, 
+Activation value is: 5
+Encryption time: 0.000243
+Decryption time 0.104031
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.668744
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
+Activation value is: 7
+Encryption time: 0.000395
+Decryption time 0.082054
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.769278
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 13, Node 7, Node 9, 
+Activation value is: 1
+Encryption time: 0.000775
+Decryption time 0.056034
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.803384
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
 At iteration 7
 Adjacent nodes that triggered the event are: Node 11, Node 5, Node 7, 
-Activation value is: 29
-Encryption time: 0.014781
-Decryption time 0.022293
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.602665
+Activation value is: 7
+Encryption time: 0.000233
+Decryption time 0.069215
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.903537
 
-[Node Termination Log at Node 7 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:252.127.0.0
-1 Events detected
-42 Messages sent.
-40 Messages received
-Total communication time With Adjacent Nodes: 0.244302
-Total Key exchange time with Adjacent Nodes: 0.017726
-Adjacent Node: Node 2, Node 12, Node 6, Node 8,
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 2
+Encryption time: 0.007152
+Decryption time 0.071923
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 8.960455
 
-[Node Termination Log at Node 8 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:255.127.0.0
-1 Events detected
-42 Messages sent.
-40 Messages received
-Total communication time With Adjacent Nodes: 0.235629
-Total Key exchange time with Adjacent Nodes: 0.014396
-Adjacent Node: Node 3, Node 13, Node 7, Node 9,
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 2
+Encryption time: 0.000294
+Decryption time 0.081864
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.063025
 
-[Node Termination Log at Node 9 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:254.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.267504
-Total Key exchange time with Adjacent Nodes: 0.014118
-Adjacent Node: Node 4, Node 14, Node 8,
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 7, 
+Activation value is: 1
+Encryption time: 0.010805
+Decryption time 0.063681
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.126713
 
-[Node Termination Log at Node 10 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:252.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.266307
-Total Key exchange time with Adjacent Nodes: 0.015262
-Adjacent Node: Node 5, Node 15, Node 11,
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
+Activation value is: 3
+Encryption time: 0.000410
+Decryption time 0.070500
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.214159
 
-[Event Log at Node 11 (DateTime: Thu Oct 17 00:42:06 2019)]
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 3, Node 7, Node 9, 
+Activation value is: 3
+Encryption time: 0.000477
+Decryption time 0.077206
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.307896
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 2
+Encryption time: 0.000353
+Decryption time 0.066410
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.375249
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 4
+Encryption time: 0.000422
+Decryption time 0.070213
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.464716
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 4
+Encryption time: 0.000458
+Decryption time 0.072290
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.551170
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 3
+Encryption time: 0.000295
+Decryption time 0.076009
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.627590
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
+Activation value is: 6
+Encryption time: 0.000726
+Decryption time 0.080069
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.734812
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 9, 
+Activation value is: 5
+Encryption time: 0.000249
+Decryption time 0.076799
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.827238
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 4
+Encryption time: 0.000241
+Decryption time 0.062015
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.895516
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
+Activation value is: 7
+Encryption time: 0.000425
+Decryption time 0.073216
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 9.982023
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 3, Node 7, Node 9, 
+Activation value is: 6
+Encryption time: 0.003904
+Decryption time 0.052761
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 10.052899
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, 
+Activation value is: 5
+Encryption time: 0.000795
+Decryption time 0.066735
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 10.132463
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 13, Node 7, Node 9, 
+Activation value is: 7
+Encryption time: 0.000627
+Decryption time 0.059278
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 10.213493
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 11, Node 5, Node 7, 
+Activation value is: 7
+Encryption time: 0.001181
+Decryption time 0.071762
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 10.285796
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 2
+Encryption time: 0.000467
+Decryption time 0.064672
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 10.330291
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 2
+Encryption time: 0.001587
+Decryption time 0.056741
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 10.524593
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 4
+Encryption time: 0.000570
+Decryption time 0.065910
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 10.606869
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 6, Node 10, Node 12, 
+Activation value is: 2
+Encryption time: 0.000436
+Decryption time 0.067721
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 10.677963
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
+Activation value is: 2
+Encryption time: 0.000434
+Decryption time 0.146440
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 10.836898
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, Node 14, 
+Activation value is: 4
+Encryption time: 0.000418
+Decryption time 0.069246
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 10.973287
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 4
+Encryption time: 0.000223
+Decryption time 0.060506
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.006878
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 4
+Encryption time: 0.000394
+Decryption time 0.035481
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.070994
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 4
+Encryption time: 0.000494
+Decryption time 0.023387
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.116776
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 2
+Encryption time: 0.000317
+Decryption time 0.019120
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.123530
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 2
+Encryption time: 0.000429
+Decryption time 0.020093
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.152936
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 2
+Encryption time: 0.000402
+Decryption time 0.018287
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.181522
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 4
+Encryption time: 0.000438
+Decryption time 0.017089
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.229745
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:26 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 1, Node 5, Node 7, 
+Activation value is: 3
+Encryption time: 0.000339
+Decryption time 0.028948
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.804096
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 4
+Encryption time: 0.001410
+Decryption time 0.019666
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.280421
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 5
+Encryption time: 0.000726
+Decryption time 0.020228
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.320652
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 10, Node 12, 
+Activation value is: 4
+Encryption time: 0.000450
+Decryption time 0.017574
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.345047
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, Node 13, 
+Activation value is: 4
+Encryption time: 0.000448
+Decryption time 0.019445
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.371510
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 18, Node 12, Node 14, 
+Activation value is: 5
+Encryption time: 0.000870
+Decryption time 0.024799
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.454403
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 5
+Encryption time: 0.000223
+Decryption time 0.030148
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.429373
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 5
+Encryption time: 0.000264
+Decryption time 0.027645
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.470767
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 5
+Encryption time: 0.000425
+Decryption time 0.025497
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.523392
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 3
+Encryption time: 0.000242
+Decryption time 0.027350
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.538947
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 3
+Encryption time: 0.000392
+Decryption time 0.024208
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.566707
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 3
+Encryption time: 0.000513
+Decryption time 0.026992
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.597128
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 2
+Encryption time: 0.000406
+Decryption time 0.023363
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.609191
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:26 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 1, Node 11, Node 5, Node 7, 
+Activation value is: 4
+Encryption time: 0.000275
+Decryption time 0.022263
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.218261
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 2
+Encryption time: 0.004246
+Decryption time 0.025863
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.654757
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 4
+Encryption time: 0.000362
+Decryption time 0.027171
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.692079
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 10, Node 12, 
+Activation value is: 7
+Encryption time: 0.000525
+Decryption time 0.026094
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.758109
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 17, Node 11, Node 13, 
+Activation value is: 5
+Encryption time: 0.000582
+Decryption time 0.024061
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.779613
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 5
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, 
+Activation value is: 7
+Encryption time: 0.000400
+Decryption time 0.032421
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.860498
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 7
+Encryption time: 0.000224
+Decryption time 0.025821
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.831730
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 7
+Encryption time: 0.000211
+Decryption time 0.027017
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.871450
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 4
+Encryption time: 0.000415
+Decryption time 0.021038
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.883398
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 4
+Encryption time: 0.000230
+Decryption time 0.027427
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.938290
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 4
+Encryption time: 0.000392
+Decryption time 0.017661
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.957158
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 4
+Encryption time: 0.000437
+Decryption time 0.020381
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 11.988868
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 3
+Encryption time: 0.000395
+Decryption time 0.018932
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.002916
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:26 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 1, Node 5, Node 7, 
+Activation value is: 6
+Encryption time: 0.000321
+Decryption time 0.022420
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.607578
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 5
+Encryption time: 0.000271
+Decryption time 0.025210
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.044316
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
 At iteration 7
 Adjacent nodes that triggered the event are: Node 6, Node 10, Node 12, 
-Activation value is: 29
-Encryption time: 0.037399
-Decryption time 0.028738
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.779800
+Activation value is: 2
+Encryption time: 0.000408
+Decryption time 0.027703
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.079004
 
-[Event Log at Node 12 (DateTime: Thu Oct 17 00:42:06 2019)]
-At iteration 8
-Adjacent nodes that triggered the event are: Node 17, Node 11, Node 13, 
-Activation value is: 19
-Encryption time: 0.000237
-Decryption time 0.027457
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.793684
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, 
+Activation value is: 7
+Encryption time: 0.000399
+Decryption time 0.028843
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.142503
 
-[Event Log at Node 13 (DateTime: Thu Oct 17 00:42:06 2019)]
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
+Activation value is: 2
+Encryption time: 0.000522
+Decryption time 0.026414
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.171222
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
 At iteration 7
-Adjacent nodes that triggered the event are: Node 18, Node 12, Node 14, 
-Activation value is: 19
-Encryption time: 0.000243
-Decryption time 0.026279
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.862432
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 4
+Encryption time: 0.000247
+Decryption time 0.029749
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.182939
 
-[Node Termination Log at Node 1 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:255.127.0.0
-2 Events detected
-33 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.261641
-Total Key exchange time with Adjacent Nodes: 0.014156
-Adjacent Node: Node 6, Node 0, Node 2,
-
-[Node Termination Log at Node 6 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:252.127.0.0
-1 Events detected
-42 Messages sent.
-40 Messages received
-Total communication time With Adjacent Nodes: 0.211837
-Total Key exchange time with Adjacent Nodes: 0.004787
-Adjacent Node: Node 1, Node 11, Node 5, Node 7,
-
-[Event Log at Node 11 (DateTime: Thu Oct 17 00:42:06 2019)]
-At iteration 9
-Adjacent nodes that triggered the event are: Node 16, Node 10, Node 12, 
-Activation value is: 19
-Encryption time: 0.004700
-Decryption time 0.022474
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.904162
-
-[Node Termination Log at Node 12 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:253.127.0.0
-2 Events detected
-43 Messages sent.
-40 Messages received
-Total communication time With Adjacent Nodes: 0.304676
-Total Key exchange time with Adjacent Nodes: 0.030098
-Adjacent Node: Node 7, Node 17, Node 11, Node 13,
-
-[Node Termination Log at Node 11 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:255.127.0.0
-2 Events detected
-43 Messages sent.
-40 Messages received
-Total communication time With Adjacent Nodes: 0.213483
-Total Key exchange time with Adjacent Nodes: 0.010667
-Adjacent Node: Node 6, Node 16, Node 10, Node 12,
-
-[Node Termination Log at Node 13 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:254.127.0.0
-2 Events detected
-43 Messages sent.
-40 Messages received
-Total communication time With Adjacent Nodes: 0.322989
-Total Key exchange time with Adjacent Nodes: 0.027286
-Adjacent Node: Node 8, Node 18, Node 12, Node 14,
-
-[Node Termination Log at Node 14 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:252.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.326002
-Total Key exchange time with Adjacent Nodes: 0.030911
-Adjacent Node: Node 9, Node 19, Node 13,
-
-[Event Log at Node 17 (DateTime: Thu Oct 17 00:42:06 2019)]
-At iteration 9
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
 Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
-Activation value is: 19
-Encryption time: 0.005740
-Decryption time 0.021446
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.024537
+Activation value is: 4
+Encryption time: 0.000302
+Decryption time 0.019637
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.209952
 
-[Node Termination Log at Node 18 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:253.127.0.0
-1 Events detected
-32 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.297649
-Total Key exchange time with Adjacent Nodes: 0.008130
-Adjacent Node: Node 13, Node 17, Node 19,
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 5
+Encryption time: 0.000401
+Decryption time 0.027819
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.249363
 
-[Node Termination Log at Node 19 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
+[Node Termination Summary Log at Node 0 (DateTime: Sat Oct 19 21:17:16 2019)]
 Node IP:254.127.0.0
 0 Events detected
 21 Messages sent.
 20 Messages received
-Total communication time With Adjacent Nodes: 0.333456
-Total Key exchange time with Adjacent Nodes: 0.028737
+Total communication time With Adjacent Nodes: 0.304891
+Total Key exchange time with Adjacent Nodes: 0.010926
+Adjacent Node: Node 5, Node 1,
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 2
+Encryption time: 0.000228
+Decryption time 0.025816
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.304896
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 2
+Encryption time: 0.000401
+Decryption time 0.026543
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.334024
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 2
+Encryption time: 0.000406
+Decryption time 0.024503
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.363112
+
+[Node Termination Summary Log at Node 4 (DateTime: Sat Oct 19 21:17:16 2019)]
+Node IP:253.127.0.0
+0 Events detected
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 0.300951
+Total Key exchange time with Adjacent Nodes: 0.010993
+Adjacent Node: Node 9, Node 3,
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 4
+Encryption time: 0.000395
+Decryption time 0.023926
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.460412
+
+[Event Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:26 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 11, Node 5, Node 7, 
+Activation value is: 7
+Encryption time: 0.000428
+Decryption time 0.025750
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.064835
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
+Activation value is: 1
+Encryption time: 0.000413
+Decryption time 0.025772
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.527123
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 13, Node 7, Node 9, 
+Activation value is: 1
+Encryption time: 0.003419
+Decryption time 0.030702
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 1.557635
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 4
+Encryption time: 0.000371
+Decryption time 0.021802
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.559606
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 7
+Encryption time: 0.000220
+Decryption time 0.032855
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.596241
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 10, Node 12, 
+Activation value is: 4
+Encryption time: 0.000418
+Decryption time 0.042476
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.650187
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
+Activation value is: 2
+Encryption time: 0.000408
+Decryption time 0.021513
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.673379
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, Node 14, 
+Activation value is: 4
+Encryption time: 0.000418
+Decryption time 0.025641
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.734885
+
+[Event Summary Log at Node 14 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 9, Node 19, Node 13, 
+Activation value is: 4
+Encryption time: 0.011114
+Decryption time 0.028034
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.719194
+
+[Node Termination Summary Log at Node 15 (DateTime: Sat Oct 19 21:17:16 2019)]
+Node IP:252.127.0.0
+0 Events detected
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 0.335682
+Total Key exchange time with Adjacent Nodes: 0.005193
+Adjacent Node: Node 10, Node 16,
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 5
+Encryption time: 0.000229
+Decryption time 0.021351
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.791715
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 5
+Encryption time: 0.000353
+Decryption time 0.018091
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.827327
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 4
+Encryption time: 0.016570
+Decryption time 0.018309
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.847387
+
+[Node Termination Summary Log at Node 19 (DateTime: Sat Oct 19 21:17:27 2019)]
+Node IP:254.127.0.0
+0 Events detected
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 11.245576
+Total Key exchange time with Adjacent Nodes: 0.028489
 Adjacent Node: Node 14, Node 18,
 
-[Node Termination Log at Node 17 (DateTime: Thu Oct 17 00:42:06 2019)]
-Node Summary:
-Node IP:255.127.0.0
-1 Events detected
-32 Messages sent.
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 3
+Encryption time: 0.000427
+Decryption time 0.026494
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.930336
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 3
+Encryption time: 0.000392
+Decryption time 0.023580
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.960254
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 3
+Encryption time: 0.000392
+Decryption time 0.032404
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 12.996760
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 2
+Encryption time: 0.000600
+Decryption time 0.027833
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.017596
+
+[Node Termination Summary Log at Node 6 (DateTime: Sat Oct 19 21:17:26 2019)]
+Node IP:252.127.0.0
+28 Events detected
+69 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.255042
+Total Key exchange time with Adjacent Nodes: 0.004975
+Adjacent Node: Node 1, Node 11, Node 5, Node 7,
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 2
+Encryption time: 0.001289
+Decryption time 0.026828
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.138097
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 2
+Encryption time: 0.002666
+Decryption time 0.026493
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.162435
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 2
+Encryption time: 0.004044
+Decryption time 0.025347
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.141635
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 4
+Encryption time: 0.000219
+Decryption time 0.026929
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.173755
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 16, Node 10, Node 12, 
+Activation value is: 5
+Encryption time: 0.000400
+Decryption time 0.028363
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.237171
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, 
+Activation value is: 3
+Encryption time: 0.000399
+Decryption time 0.027944
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.265299
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 18, Node 12, Node 14, 
+Activation value is: 5
+Encryption time: 0.000401
+Decryption time 0.026416
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.327070
+
+[Event Summary Log at Node 14 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 9, Node 19, Node 13, 
+Activation value is: 4
+Encryption time: 0.005877
+Decryption time 0.025828
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.270278
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 7
+Encryption time: 0.000251
+Decryption time 0.030908
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.347875
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 7
+Encryption time: 0.000676
+Decryption time 0.025307
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.378847
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 5
+Encryption time: 0.000401
+Decryption time 0.025823
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.405245
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 4
+Encryption time: 0.000543
+Decryption time 0.026657
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.440465
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 4
+Encryption time: 0.000392
+Decryption time 0.025757
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.471810
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 4
+Encryption time: 0.000392
+Decryption time 0.027395
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.503371
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 3
+Encryption time: 0.000551
+Decryption time 0.024864
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.518354
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
+Activation value is: 3
+Encryption time: 0.000679
+Decryption time 0.023677
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.594763
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 3
+Encryption time: 0.000487
+Decryption time 0.025616
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 2.616347
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 4
+Encryption time: 0.000276
+Decryption time 0.029780
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.603428
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 5
+Encryption time: 0.000297
+Decryption time 0.018100
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.626031
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 10, Node 12, 
+Activation value is: 7
+Encryption time: 0.000418
+Decryption time 0.022354
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.691725
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, Node 13, 
+Activation value is: 4
+Encryption time: 0.000418
+Decryption time 0.023569
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.722834
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 6
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, 
+Activation value is: 7
+Encryption time: 0.000398
+Decryption time 0.022858
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.786758
+
+[Event Summary Log at Node 14 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 9, Node 19, Node 13, 
+Activation value is: 5
+Encryption time: 0.000311
+Decryption time 0.025539
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.721931
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 4
+Encryption time: 0.006344
+Decryption time 0.028092
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.761476
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 4
+Encryption time: 0.004858
+Decryption time 0.026735
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.792199
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 4
+Encryption time: 0.000960
+Decryption time 0.017832
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.808745
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 2
+Encryption time: 0.003036
+Decryption time 0.018855
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.860561
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 2
+Encryption time: 0.000404
+Decryption time 0.020563
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.894675
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 6
+Encryption time: 0.000480
+Decryption time 0.031907
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.970071
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 4
+Encryption time: 0.000615
+Decryption time 0.025137
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 13.985948
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 6, Node 8, 
+Activation value is: 4
+Encryption time: 0.000532
+Decryption time 0.028012
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.064989
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 4
+Encryption time: 0.000419
+Decryption time 0.026703
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.088137
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 7
+Encryption time: 0.000276
+Decryption time 0.026022
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.071049
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 7
+Encryption time: 0.000446
+Decryption time 0.025446
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.101115
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 6, Node 10, Node 12, 
+Activation value is: 2
+Encryption time: 0.000437
+Decryption time 0.020012
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.125102
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 17, Node 11, Node 13, 
+Activation value is: 5
+Encryption time: 0.000400
+Decryption time 0.028551
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.200247
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
+Activation value is: 1
+Encryption time: 0.000449
+Decryption time 0.017920
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.219667
+
+[Event Summary Log at Node 14 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 9, Node 19, Node 13, 
+Activation value is: 7
+Encryption time: 0.000772
+Decryption time 0.020696
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.190285
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 5
+Encryption time: 0.000309
+Decryption time 0.017625
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.219101
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 5
+Encryption time: 0.000443
+Decryption time 0.028339
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.246632
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 5
+Encryption time: 0.001406
+Decryption time 0.024241
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.275089
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 3
+Encryption time: 0.000229
+Decryption time 0.026015
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.329028
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 3
+Encryption time: 0.000392
+Decryption time 0.026335
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.360492
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 2
+Encryption time: 0.002210
+Decryption time 0.026100
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.388846
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 1
+Encryption time: 0.002289
+Decryption time 0.024693
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.390169
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 2, Node 12, Node 8, 
+Activation value is: 5
+Encryption time: 0.000791
+Decryption time 0.029086
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.517363
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 9, 
+Activation value is: 5
+Encryption time: 0.000370
+Decryption time 0.025604
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.539410
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 4
+Encryption time: 0.004137
+Decryption time 0.026359
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.575703
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 4
+Encryption time: 0.000277
+Decryption time 0.025588
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.506232
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 10, 
+Activation value is: 3
+Encryption time: 0.000398
+Decryption time 0.026488
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.577647
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, 
+Activation value is: 7
+Encryption time: 0.000399
+Decryption time 0.025731
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.642648
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
+Activation value is: 2
+Encryption time: 0.000399
+Decryption time 0.024496
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.669981
+
+[Event Summary Log at Node 14 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 9, Node 19, Node 13, 
+Activation value is: 5
+Encryption time: 0.000391
+Decryption time 0.029153
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.718032
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 7
+Encryption time: 0.000280
+Decryption time 0.026046
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.672419
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 7
+Encryption time: 0.000275
+Decryption time 0.019378
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.691552
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 7
+Encryption time: 0.009444
+Decryption time 0.018254
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.710427
+
+[Event Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 4
+Encryption time: 0.001046
+Decryption time 0.023330
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.771537
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 4
+Encryption time: 0.000392
+Decryption time 0.026188
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.804241
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 3
+Encryption time: 0.000414
+Decryption time 0.028073
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.835057
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 2
+Encryption time: 0.000496
+Decryption time 0.020575
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.832068
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 2, Node 6, Node 8, 
+Activation value is: 6
+Encryption time: 0.002285
+Decryption time 0.026566
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.960503
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 3, Node 7, Node 9, 
+Activation value is: 6
+Encryption time: 0.000498
+Decryption time 0.027027
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 3.986304
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 5
+Encryption time: 0.003278
+Decryption time 0.025822
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.017746
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 5
+Encryption time: 0.000226
+Decryption time 0.025266
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 14.952501
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 10, Node 12, 
+Activation value is: 4
+Encryption time: 0.000642
+Decryption time 0.027305
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.024533
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
+Activation value is: 1
+Encryption time: 0.000544
+Decryption time 0.023734
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.043264
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, Node 14, 
+Activation value is: 4
+Encryption time: 0.000417
+Decryption time 0.027968
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.116323
+
+[Event Summary Log at Node 14 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 9, Node 19, Node 13, 
+Activation value is: 7
+Encryption time: 0.000382
+Decryption time 0.026645
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.161271
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 4
+Encryption time: 0.015712
+Decryption time 0.024866
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.088927
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 4
+Encryption time: 0.000737
+Decryption time 0.024998
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.223301
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 3
+Encryption time: 0.001024
+Decryption time 0.029450
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.239775
+
+[Node Termination Summary Log at Node 1 (DateTime: Sat Oct 19 21:17:16 2019)]
+Node IP:253.127.0.0
+15 Events detected
+46 Messages sent.
 30 Messages received
-Total communication time With Adjacent Nodes: 0.338739
-Total Key exchange time with Adjacent Nodes: 0.029721
+Total communication time With Adjacent Nodes: 0.263697
+Total Key exchange time with Adjacent Nodes: 0.010774
+Adjacent Node: Node 6, Node 0, Node 2,
+
+[Event Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
+Activation value is: 6
+Encryption time: 0.000392
+Decryption time 0.023700
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.267436
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 4
+Encryption time: 0.000418
+Decryption time 0.026800
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.297247
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 3
+Encryption time: 0.000465
+Decryption time 0.025281
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.298562
+
+[Event Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
+Activation value is: 7
+Encryption time: 0.000564
+Decryption time 0.025503
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.420343
+
+[Event Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 3, Node 13, Node 7, Node 9, 
+Activation value is: 7
+Encryption time: 0.000487
+Decryption time 0.026740
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.445977
+
+[Event Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 4, Node 14, Node 8, 
+Activation value is: 7
+Encryption time: 0.000380
+Decryption time 0.025075
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.475917
+
+[Event Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 5, Node 15, Node 11, 
+Activation value is: 7
+Encryption time: 0.000527
+Decryption time 0.025556
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.411620
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 16, Node 10, Node 12, 
+Activation value is: 5
+Encryption time: 0.000759
+Decryption time 0.017996
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.474236
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
+Activation value is: 2
+Encryption time: 0.000771
+Decryption time 0.020489
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.496336
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 18, Node 12, Node 14, 
+Activation value is: 5
+Encryption time: 0.000409
+Decryption time 0.017288
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.565240
+
+[Node Termination Summary Log at Node 14 (DateTime: Sat Oct 19 21:17:27 2019)]
+Node IP:252.127.0.0
+6 Events detected
+37 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 11.197754
+Total Key exchange time with Adjacent Nodes: 0.003884
+Adjacent Node: Node 9, Node 19, Node 13,
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 5
+Encryption time: 0.000244
+Decryption time 0.023366
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.557641
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 5
+Encryption time: 0.000484
+Decryption time 0.026781
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.698372
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 5
+Encryption time: 0.000328
+Decryption time 0.027500
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 4.712196
+
+[Node Termination Summary Log at Node 2 (DateTime: Sat Oct 19 21:17:16 2019)]
+Node IP:253.127.0.0
+15 Events detected
+46 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.260342
+Total Key exchange time with Adjacent Nodes: 0.009718
+Adjacent Node: Node 7, Node 1, Node 3,
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 5
+Encryption time: 0.000533
+Decryption time 0.024488
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.741263
+
+[Event Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 0, Node 10, Node 6, 
+Activation value is: 4
+Encryption time: 0.000593
+Decryption time 0.026433
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.742722
+
+[Node Termination Summary Log at Node 7 (DateTime: Sat Oct 19 21:17:27 2019)]
+Node IP:253.127.0.0
+30 Events detected
+71 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 11.192491
+Total Key exchange time with Adjacent Nodes: 0.013183
+Adjacent Node: Node 2, Node 12, Node 6, Node 8,
+
+[Node Termination Summary Log at Node 8 (DateTime: Sat Oct 19 21:17:27 2019)]
+Node IP:252.127.0.0
+29 Events detected
+70 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 11.193639
+Total Key exchange time with Adjacent Nodes: 0.019327
+Adjacent Node: Node 3, Node 13, Node 7, Node 9,
+
+[Node Termination Summary Log at Node 9 (DateTime: Sat Oct 19 21:17:27 2019)]
+Node IP:252.127.0.0
+15 Events detected
+46 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 11.188411
+Total Key exchange time with Adjacent Nodes: 0.026834
+Adjacent Node: Node 4, Node 14, Node 8,
+
+[Node Termination Summary Log at Node 10 (DateTime: Sat Oct 19 21:17:16 2019)]
+Node IP:254.127.0.0
+12 Events detected
+43 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.293082
+Total Key exchange time with Adjacent Nodes: 0.011001
+Adjacent Node: Node 5, Node 15, Node 11,
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 10, Node 12, 
+Activation value is: 7
+Encryption time: 0.000515
+Decryption time 0.022434
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.968271
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, 
+Activation value is: 3
+Encryption time: 0.000399
+Decryption time 0.028342
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 15.991458
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 7
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, Node 14, 
+Activation value is: 7
+Encryption time: 0.000418
+Decryption time 0.040551
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.076142
+
+[Event Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 11, Node 15, Node 17, 
+Activation value is: 7
+Encryption time: 0.000304
+Decryption time 0.020379
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.013785
+
+[Event Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 12, Node 16, Node 18, 
+Activation value is: 7
+Encryption time: 0.000557
+Decryption time 0.026507
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.155006
+
+[Event Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 13, Node 17, Node 19, 
+Activation value is: 7
+Encryption time: 0.000251
+Decryption time 0.026479
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.169748
+
+[Event Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 6
+Encryption time: 0.000413
+Decryption time 0.028071
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.159820
+
+[Node Termination Summary Log at Node 5 (DateTime: Sat Oct 19 21:17:16 2019)]
+Node IP:254.127.0.0
+12 Events detected
+43 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.316366
+Total Key exchange time with Adjacent Nodes: 0.012845
+Adjacent Node: Node 0, Node 10, Node 6,
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 6, Node 10, Node 12, 
+Activation value is: 1
+Encryption time: 0.002142
+Decryption time 0.024156
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.188489
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, Node 13, 
+Activation value is: 4
+Encryption time: 0.000421
+Decryption time 0.029451
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.258781
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
+Activation value is: 1
+Encryption time: 0.000478
+Decryption time 0.025225
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.284711
+
+[Node Termination Summary Log at Node 16 (DateTime: Sat Oct 19 21:17:16 2019)]
+Node IP:253.127.0.0
+13 Events detected
+44 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.241351
+Total Key exchange time with Adjacent Nodes: 0.009728
+Adjacent Node: Node 11, Node 15, Node 17,
+
+[Node Termination Summary Log at Node 17 (DateTime: Sat Oct 19 21:17:27 2019)]
+Node IP:252.127.0.0
+16 Events detected
+47 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 11.164670
+Total Key exchange time with Adjacent Nodes: 0.018566
 Adjacent Node: Node 12, Node 16, Node 18,
 
-Program Summary:
+[Node Termination Summary Log at Node 18 (DateTime: Sat Oct 19 21:17:27 2019)]
+Node IP:254.127.0.0
+15 Events detected
+46 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 11.199058
+Total Key exchange time with Adjacent Nodes: 0.016719
+Adjacent Node: Node 13, Node 17, Node 19,
+
+[Node Termination Summary Log at Node 3 (DateTime: Sat Oct 19 21:17:16 2019)]
+Node IP:252.127.0.0
+20 Events detected
+51 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.259966
+Total Key exchange time with Adjacent Nodes: 0.010657
+Adjacent Node: Node 8, Node 2, Node 4,
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 6, Node 10, Node 12, 
+Activation value is: 2
+Encryption time: 0.000402
+Decryption time 0.035052
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.450601
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 17, Node 11, Node 13, 
+Activation value is: 5
+Encryption time: 0.000436
+Decryption time 0.028885
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.520705
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
+Activation value is: 2
+Encryption time: 0.000420
+Decryption time 0.025461
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.548243
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 10, 
+Activation value is: 3
+Encryption time: 0.000398
+Decryption time 0.027127
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.543254
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, Node 13, 
+Activation value is: 7
+Encryption time: 0.000421
+Decryption time 0.025527
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.609772
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, Node 14, 
+Activation value is: 4
+Encryption time: 0.000443
+Decryption time 0.028702
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.641201
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 10, Node 12, 
+Activation value is: 4
+Encryption time: 0.000418
+Decryption time 0.027068
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.635146
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
+Activation value is: 1
+Encryption time: 0.000524
+Decryption time 0.027057
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.776523
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 18, Node 12, Node 14, 
+Activation value is: 5
+Encryption time: 0.000564
+Decryption time 0.026356
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.731239
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 16, Node 10, Node 12, 
+Activation value is: 5
+Encryption time: 0.000400
+Decryption time 0.027050
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.725749
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
+Activation value is: 2
+Encryption time: 0.000510
+Decryption time 0.025404
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.866281
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 8
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, Node 14, 
+Activation value is: 7
+Encryption time: 0.003595
+Decryption time 0.027160
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.902617
+
+[Event Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 6, Node 16, Node 10, Node 12, 
+Activation value is: 7
+Encryption time: 0.000418
+Decryption time 0.023618
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 16.814571
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 13, 
+Activation value is: 3
+Encryption time: 0.001024
+Decryption time 0.026428
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.960329
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
+Activation value is: 1
+Encryption time: 0.001344
+Decryption time 0.027240
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 5.981108
+
+[Node Termination Summary Log at Node 11 (DateTime: Sat Oct 19 21:17:16 2019)]
+Node IP:254.127.0.0
+23 Events detected
+64 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.209897
+Total Key exchange time with Adjacent Nodes: 0.006507
+Adjacent Node: Node 6, Node 16, Node 10, Node 12,
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, Node 13, 
+Activation value is: 4
+Encryption time: 0.000456
+Decryption time 0.025592
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.062534
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, Node 14, 
+Activation value is: 4
+Encryption time: 0.000672
+Decryption time 0.025724
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.082264
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 17, Node 11, Node 13, 
+Activation value is: 5
+Encryption time: 0.000772
+Decryption time 0.026889
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.119493
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, Node 14, 
+Activation value is: 5
+Encryption time: 0.000497
+Decryption time 0.026615
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.141618
+
+[Event Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 7, Node 17, Node 11, Node 13, 
+Activation value is: 7
+Encryption time: 0.001227
+Decryption time 0.026290
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.178466
+
+[Event Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:27 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 8, Node 18, Node 12, Node 14, 
+Activation value is: 7
+Encryption time: 0.000962
+Decryption time 0.026587
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 6.202112
+
+[Node Termination Summary Log at Node 12 (DateTime: Sat Oct 19 21:17:27 2019)]
+Node IP:252.127.0.0
+28 Events detected
+69 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 11.187626
+Total Key exchange time with Adjacent Nodes: 0.018168
+Adjacent Node: Node 7, Node 17, Node 11, Node 13,
+
+[Node Termination Summary Log at Node 13 (DateTime: Sat Oct 19 21:17:27 2019)]
+Node IP:255.127.0.0
+29 Events detected
+70 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.271819
+Total Key exchange time with Adjacent Nodes: 0.024673
+Adjacent Node: Node 8, Node 18, Node 12, Node 14,
+
+[Program Summary Log]
 Simulation Iteration: 10
-Detection Window Size: 3
-Random Number Upperbound: 30
-Total Event Detected During Simulation 14
-Total Decryption Time: 1.323055
+Detection Window Size: 9
+Random Number Upperbound: 10
+Total Event Detected During Simulation 306
+Total Encryption Time: 0.936478
+Total Decryption Time: 24.963265
+
+[Iteration Summary Log]
+Iteration	Events detected		Encyprtion Time		Decryption Time		Communication Time		Total Messages communicated
+0			0					0.000000			0.000000			0.000000			62
+1			1					0.010535			0.118020			0.118810			63
+2			6					0.037752			0.457430			3.622452			68
+3			12					0.078814			0.954546			13.589674			74
+4			23					0.049056			1.625988			64.007898			85
+5			34					0.088296			2.503877			199.935034			96
+6			44					0.057171			2.359160			412.113859			106
+7			53					0.059514			1.901833			620.815640			115
+8			65					0.083488			2.431448			837.690855			127
+9			68					0.071856			1.801563			596.024521			130
