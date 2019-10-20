@@ -1,5 +1,5 @@
 #include "WSN.h"
-
+//this files contains the all the functionalities of a base station.
 void Base_station_functions(int simulation_times, int upperbound, FILE *fp, long *code_word1, int msgLen, long private_key, long n, int Completion, int window_size){
 	MPI_Status stat;
 	double total_decryption_time = 0.0;
@@ -9,7 +9,7 @@ void Base_station_functions(int simulation_times, int upperbound, FILE *fp, long
 
     double end_decryption;
 
-    double total_encryption_time_all_nodes;
+    double total_encryption_time_all_nodes = 0;
 
     double summary_table[simulation_times][5];
 

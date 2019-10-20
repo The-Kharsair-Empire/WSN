@@ -1,5 +1,5 @@
 #include "WSN.h"
-
+//this files contains the functionalities of nodes/sensors in the WSN grid
 void distribute_key_sendfirst(long * public_key, long * n, long *keys, long *n_mods, int offset, int to_and_from, MPI_Status * stat, int tag){
 	MPI_Send(public_key, 1, MPI_LONG, to_and_from, tag, MPI_COMM_WORLD);
     MPI_Recv(keys+offset, 1, MPI_LONG, to_and_from, tag, MPI_COMM_WORLD, stat);
@@ -216,7 +216,7 @@ void Nodes_functions(int window_size, int adjacent_num, int upperbound, int simu
                     timestr[strlen(timestr)-1] = '\0';
 
                     
-                    sprintf(msg1, "[Event Summary Log at Node %d (DateTime: %s)]\nAt iteration %d\n", rank, timestr, num_of_time);
+                    sprintf(msg1, "[Event Summary Log at Node %d (DateTime: %s)]\nAt iteration %d\n", rank, timestr, num_of_time); //string used to pack the information
                     
                     strcat(msg1, "Adjacent nodes that triggered the event are: ");
                     for (event_sender_pointer=0; event_sender_pointer < events[rand_num_counter]; event_sender_pointer++){

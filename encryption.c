@@ -53,6 +53,8 @@ void get_private_key(long p, long q, long public_key, long *private_key) {
 	}
 }
 
+
+//encryption one integer, used for encrypting messages between adjacent nodes
 long encrypt_one(int input, long public_key, long n){
 	int i;
 	long c = (long) input;

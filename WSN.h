@@ -13,6 +13,8 @@
 #include <netinet/in.h>
 #include <arpa/inet.h>
 
+//this file includes all needed packages and libraries
+
 
 void generate_keys(int rank, long *public_key, long *private_key, long*n);
 void decrypt_cipher(long * input, long private_key, long n, char * output, int len);
@@ -21,9 +23,6 @@ long encrypt_one(int input, long public_key, long n);
 int decrypt_one(long input, long private_key, long n);
 
 void getIP(char *IP);
-void reverse(char *str, int len);
-int intToStr(int x, char str[], int significantNum);
-void ftoStr(double n, char *res, int significantNum);
 char* substring(int start, int end, char a_string[]);
 
 void distribute_key_sendfirst(long * public_key, long * n, long *keys, long *n_mods, int offset, int to_and_from, MPI_Status * stat, int tag);
