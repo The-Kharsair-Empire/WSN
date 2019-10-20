@@ -31,3 +31,9 @@ void distribute_key_recvfirst(long * public_key, long * n, long *keys, long *n_m
 void send_random_num_sendfirst(int * random_num, int to_and_from, int tag, long *public_key, long private_key, long *n, int offset, int *recv_buff, MPI_Status * stat);
 void encrypt_toAdj(int random_num, long *code_word, long public_key, long n);
 void decrypt_fromAdj(long *code_word, int *recv_buff, long private_key, long n);
+void exchange_key(long *keys, long *n_mods, long * public_key, long *n, int * adjacent_num, int * sender_list,  int adjacent_node_up, int adjacent_node_down, int adjacent_node_left, int adjacent_node_right, int col_pos, int Internal_Comm, int size, int row_len);
+void send_recv_random_num(int *total_msg_to_adj, int *total_msg_from_adj, int random_num, long *keys, long *n_mods, long private_key, long n, int *recv_buff, int adjacent_node_up, int adjacent_node_down, int adjacent_node_left, int adjacent_node_right, int size, int col_pos, int row_len, int Internal_Comm);
+void Nodes_functions(int window_size, int adjacent_num, int upperbound, int simulation_times, int rank, long * keys, long *n_mods, long private_key, long n, int adjacent_node_up, int adjacent_node_down, int adjacent_node_left, int adjacent_node_right, int col_pos, int row_len, int size, int *sender_list, double exchange_time, char * IP, int Internal_Comm,int Event_Comm, int Completion, char * msg1, char * msgbuff, long * code_word1, long public_key, int Base_station);
+
+
+void Base_station_functions(int simulation_times, int upperbound, FILE *fp, long *code_word1, int msgLen, long private_key, long n, int Completion, int window_size);
