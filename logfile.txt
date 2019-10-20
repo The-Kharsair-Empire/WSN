@@ -1,304 +1,224 @@
-[Event Summary Log at Node 6 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 2
-Adjacent nodes that triggered the event are: Node 1, Node 5, Node 7, 
-Activation value is: 44
-Encryption time: 0.013521
-Decryption time 0.120567
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.120788
-
-[Event Summary Log at Node 1 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 6
-Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
-Activation value is: 32
-Encryption time: 0.012465
-Decryption time 0.098934
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.132622
-
-[Event Summary Log at Node 2 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 6
-Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
-Activation value is: 44
-Encryption time: 0.009950
-Decryption time 0.036984
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.161511
-
-[Event Summary Log at Node 8 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 5
-Adjacent nodes that triggered the event are: Node 13, Node 7, Node 9, 
-Activation value is: 10
-Encryption time: 0.012634
-Decryption time 0.027841
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.206044
-
-[Event Summary Log at Node 11 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 2
-Adjacent nodes that triggered the event are: Node 16, Node 10, Node 12, 
-Activation value is: 10
-Encryption time: 0.012080
-Decryption time 0.028998
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.333622
-
-[Event Summary Log at Node 12 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 5
-Adjacent nodes that triggered the event are: Node 7, Node 11, Node 13, 
-Activation value is: 10
-Encryption time: 0.009565
-Decryption time 0.029254
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.260409
-
-[Event Summary Log at Node 13 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 4
-Adjacent nodes that triggered the event are: Node 8, Node 12, Node 14, 
-Activation value is: 10
-Encryption time: 0.011342
-Decryption time 0.026479
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.323196
-
-[Event Summary Log at Node 11 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 6
-Adjacent nodes that triggered the event are: Node 6, Node 10, Node 12, 
-Activation value is: 10
-Encryption time: 0.000245
-Decryption time 0.037159
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.323578
-
-[Node Termination Summary Log at Node 0 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:255.127.0.0
-0 Events detected
-21 Messages sent.
-20 Messages received
-Total communication time With Adjacent Nodes: 0.271725
-Total Key exchange time with Adjacent Nodes: 0.005589
-Adjacent Node: Node 5, Node 1,
-
-[Event Summary Log at Node 1 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 9
-Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
-Activation value is: 5
-Encryption time: 0.000412
-Decryption time 0.024616
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.320155
-
-[Event Summary Log at Node 2 (DateTime: Sun Oct 20 20:48:05 2019)]
+[Event Summary Log at Node 2 (DateTime: Sun Oct 20 21:18:53 2019)]
 At iteration 9
 Adjacent nodes that triggered the event are: Node 7, Node 1, Node 3, 
-Activation value is: 16
-Encryption time: 0.001164
-Decryption time 0.026950
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.344875
+Activation value is: 30
+Encryption time: 0.005731
+Decryption time 0.074361
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.075166
 
-[Node Termination Summary Log at Node 3 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:255.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.266050
-Total Key exchange time with Adjacent Nodes: 0.007339
-Adjacent Node: Node 8, Node 2, Node 4,
-
-[Node Termination Summary Log at Node 4 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:253.127.0.0
-0 Events detected
-21 Messages sent.
-20 Messages received
-Total communication time With Adjacent Nodes: 0.274449
-Total Key exchange time with Adjacent Nodes: 0.007162
-Adjacent Node: Node 9, Node 3,
-
-[Node Termination Summary Log at Node 5 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:254.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.289841
-Total Key exchange time with Adjacent Nodes: 0.001550
-Adjacent Node: Node 0, Node 10, Node 6,
-
-[Event Summary Log at Node 6 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 7
-Adjacent nodes that triggered the event are: Node 11, Node 5, Node 7, 
-Activation value is: 10
-Encryption time: 0.000260
-Decryption time 0.022670
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.561235
-
-[Event Summary Log at Node 7 (DateTime: Sun Oct 20 20:48:05 2019)]
-At iteration 6
-Adjacent nodes that triggered the event are: Node 12, Node 6, Node 8, 
-Activation value is: 10
-Encryption time: 0.031457
-Decryption time 0.026903
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.610776
-
-[Event Summary Log at Node 8 (DateTime: Sun Oct 20 20:48:05 2019)]
+[Event Summary Log at Node 1 (DateTime: Sun Oct 20 21:18:53 2019)]
 At iteration 9
-Adjacent nodes that triggered the event are: Node 3, Node 7, Node 9, 
-Activation value is: 10
-Encryption time: 0.000463
-Decryption time 0.031556
-Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.583902
+Adjacent nodes that triggered the event are: Node 6, Node 0, Node 2, 
+Activation value is: 20
+Encryption time: 0.007529
+Decryption time 0.020960
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.100246
 
-[Node Termination Summary Log at Node 10 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:254.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.287624
-Total Key exchange time with Adjacent Nodes: 0.009248
-Adjacent Node: Node 5, Node 15, Node 11,
-
-[Node Termination Summary Log at Node 11 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:254.127.0.0
-2 Events detected
-43 Messages sent.
-40 Messages received
-Total communication time With Adjacent Nodes: 0.194727
-Total Key exchange time with Adjacent Nodes: 0.012096
-Adjacent Node: Node 6, Node 16, Node 10, Node 12,
-
-[Node Termination Summary Log at Node 12 (DateTime: Sun Oct 20 20:48:05 2019)]
+[Node Termination Summary Log at Node 2 (DateTime: Sun Oct 20 21:18:53 2019)]
 Node IP:253.127.0.0
 1 Events detected
-42 Messages sent.
-40 Messages received
-Total communication time With Adjacent Nodes: 0.272036
-Total Key exchange time with Adjacent Nodes: 0.009653
-Adjacent Node: Node 7, Node 17, Node 11, Node 13,
-
-[Node Termination Summary Log at Node 13 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:254.127.0.0
-1 Events detected
-42 Messages sent.
-40 Messages received
-Total communication time With Adjacent Nodes: 0.281052
-Total Key exchange time with Adjacent Nodes: 0.013587
-Adjacent Node: Node 8, Node 18, Node 12, Node 14,
-
-[Node Termination Summary Log at Node 14 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:252.127.0.0
-0 Events detected
-31 Messages sent.
+32 Messages sent.
 30 Messages received
-Total communication time With Adjacent Nodes: 0.251717
-Total Key exchange time with Adjacent Nodes: 0.013561
-Adjacent Node: Node 9, Node 19, Node 13,
-
-[Node Termination Summary Log at Node 15 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:252.127.0.0
-0 Events detected
-21 Messages sent.
-20 Messages received
-Total communication time With Adjacent Nodes: 0.288944
-Total Key exchange time with Adjacent Nodes: 0.010532
-Adjacent Node: Node 10, Node 16,
-
-[Node Termination Summary Log at Node 16 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:252.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.200526
-Total Key exchange time with Adjacent Nodes: 0.010504
-Adjacent Node: Node 11, Node 15, Node 17,
-
-[Node Termination Summary Log at Node 17 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:255.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.273022
-Total Key exchange time with Adjacent Nodes: 0.008372
-Adjacent Node: Node 12, Node 16, Node 18,
-
-[Node Termination Summary Log at Node 18 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:254.127.0.0
-0 Events detected
-31 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.209422
-Total Key exchange time with Adjacent Nodes: 0.015035
-Adjacent Node: Node 13, Node 17, Node 19,
-
-[Node Termination Summary Log at Node 19 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:255.127.0.0
-0 Events detected
-21 Messages sent.
-20 Messages received
-Total communication time With Adjacent Nodes: 0.270058
-Total Key exchange time with Adjacent Nodes: 0.012173
-Adjacent Node: Node 14, Node 18,
-
-[Node Termination Summary Log at Node 1 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:254.127.0.0
-2 Events detected
-33 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.248353
-Total Key exchange time with Adjacent Nodes: 0.003217
-Adjacent Node: Node 6, Node 0, Node 2,
-
-[Node Termination Summary Log at Node 2 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:255.127.0.0
-2 Events detected
-33 Messages sent.
-30 Messages received
-Total communication time With Adjacent Nodes: 0.257324
-Total Key exchange time with Adjacent Nodes: 0.006363
+Total communication time With Adjacent Nodes: 0.208744
+Total Key exchange time with Adjacent Nodes: 0.029650
 Adjacent Node: Node 7, Node 1, Node 3,
 
-[Node Termination Summary Log at Node 6 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:253.127.0.0
-2 Events detected
-43 Messages sent.
+[Event Summary Log at Node 3 (DateTime: Sun Oct 20 21:18:53 2019)]
+At iteration 9
+Adjacent nodes that triggered the event are: Node 8, Node 2, Node 4, 
+Activation value is: 18
+Encryption time: 0.007598
+Decryption time 0.020521
+Time Taken to report Event (communication time From Event Reporting Node to Base Station): 0.165568
+
+[Node Termination Summary Log at Node 4 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:252.127.0.0
+0 Events detected
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 0.219774
+Total Key exchange time with Adjacent Nodes: 0.031433
+Adjacent Node: Node 9, Node 3,
+
+[Node Termination Summary Log at Node 5 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:254.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.231717
+Total Key exchange time with Adjacent Nodes: 0.003225
+Adjacent Node: Node 0, Node 10, Node 6,
+
+[Node Termination Summary Log at Node 6 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:255.127.0.0
+0 Events detected
+41 Messages sent.
 40 Messages received
-Total communication time With Adjacent Nodes: 0.230036
-Total Key exchange time with Adjacent Nodes: 0.011030
+Total communication time With Adjacent Nodes: 0.192059
+Total Key exchange time with Adjacent Nodes: 0.031814
 Adjacent Node: Node 1, Node 11, Node 5, Node 7,
 
-[Node Termination Summary Log at Node 7 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:252.127.0.0
-1 Events detected
-42 Messages sent.
+[Node Termination Summary Log at Node 7 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:254.127.0.0
+0 Events detected
+41 Messages sent.
 40 Messages received
-Total communication time With Adjacent Nodes: 0.250655
-Total Key exchange time with Adjacent Nodes: 0.014291
+Total communication time With Adjacent Nodes: 0.228628
+Total Key exchange time with Adjacent Nodes: 0.002575
 Adjacent Node: Node 2, Node 12, Node 6, Node 8,
 
-[Node Termination Summary Log at Node 8 (DateTime: Sun Oct 20 20:48:05 2019)]
-Node IP:253.127.0.0
-2 Events detected
-43 Messages sent.
+[Node Termination Summary Log at Node 8 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:255.127.0.0
+0 Events detected
+41 Messages sent.
 40 Messages received
-Total communication time With Adjacent Nodes: 0.270245
-Total Key exchange time with Adjacent Nodes: 0.011695
+Total communication time With Adjacent Nodes: 0.233342
+Total Key exchange time with Adjacent Nodes: 0.031317
 Adjacent Node: Node 3, Node 13, Node 7, Node 9,
 
-[Node Termination Summary Log at Node 9 (DateTime: Sun Oct 20 20:48:05 2019)]
+[Node Termination Summary Log at Node 9 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:253.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.237019
+Total Key exchange time with Adjacent Nodes: 0.026617
+Adjacent Node: Node 4, Node 14, Node 8,
+
+[Node Termination Summary Log at Node 10 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:252.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.216683
+Total Key exchange time with Adjacent Nodes: 0.006234
+Adjacent Node: Node 5, Node 15, Node 11,
+
+[Node Termination Summary Log at Node 11 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:252.127.0.0
+0 Events detected
+41 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.209652
+Total Key exchange time with Adjacent Nodes: 0.028877
+Adjacent Node: Node 6, Node 16, Node 10, Node 12,
+
+[Node Termination Summary Log at Node 12 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:253.127.0.0
+0 Events detected
+41 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.228953
+Total Key exchange time with Adjacent Nodes: 0.030761
+Adjacent Node: Node 7, Node 17, Node 11, Node 13,
+
+[Node Termination Summary Log at Node 13 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:255.127.0.0
+0 Events detected
+41 Messages sent.
+40 Messages received
+Total communication time With Adjacent Nodes: 0.269441
+Total Key exchange time with Adjacent Nodes: 0.031816
+Adjacent Node: Node 8, Node 18, Node 12, Node 14,
+
+[Node Termination Summary Log at Node 14 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:254.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.246594
+Total Key exchange time with Adjacent Nodes: 0.027444
+Adjacent Node: Node 9, Node 19, Node 13,
+
+[Node Termination Summary Log at Node 15 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:254.127.0.0
+0 Events detected
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 0.256125
+Total Key exchange time with Adjacent Nodes: 0.003427
+Adjacent Node: Node 10, Node 16,
+
+[Node Termination Summary Log at Node 16 (DateTime: Sun Oct 20 21:18:53 2019)]
 Node IP:255.127.0.0
 0 Events detected
 31 Messages sent.
 30 Messages received
-Total communication time With Adjacent Nodes: 0.279563
-Total Key exchange time with Adjacent Nodes: 0.008940
-Adjacent Node: Node 4, Node 14, Node 8,
+Total communication time With Adjacent Nodes: 0.199924
+Total Key exchange time with Adjacent Nodes: 0.031270
+Adjacent Node: Node 11, Node 15, Node 17,
+
+[Node Termination Summary Log at Node 17 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:253.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.219887
+Total Key exchange time with Adjacent Nodes: 0.021261
+Adjacent Node: Node 12, Node 16, Node 18,
+
+[Node Termination Summary Log at Node 18 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:253.127.0.0
+0 Events detected
+31 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.187857
+Total Key exchange time with Adjacent Nodes: 0.009770
+Adjacent Node: Node 13, Node 17, Node 19,
+
+[Node Termination Summary Log at Node 19 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:253.127.0.0
+0 Events detected
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 0.244917
+Total Key exchange time with Adjacent Nodes: 0.030090
+Adjacent Node: Node 14, Node 18,
+
+[Node Termination Summary Log at Node 0 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:254.127.0.0
+0 Events detected
+21 Messages sent.
+20 Messages received
+Total communication time With Adjacent Nodes: 0.245916
+Total Key exchange time with Adjacent Nodes: 0.000566
+Adjacent Node: Node 5, Node 1,
+
+[Node Termination Summary Log at Node 1 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:252.127.0.0
+1 Events detected
+32 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.208505
+Total Key exchange time with Adjacent Nodes: 0.031066
+Adjacent Node: Node 6, Node 0, Node 2,
+
+[Node Termination Summary Log at Node 3 (DateTime: Sun Oct 20 21:18:53 2019)]
+Node IP:255.127.0.0
+1 Events detected
+32 Messages sent.
+30 Messages received
+Total communication time With Adjacent Nodes: 0.220294
+Total Key exchange time with Adjacent Nodes: 0.031581
+Adjacent Node: Node 8, Node 2, Node 4,
 
 [Program Summary Log]
 Simulation Iteration: 10
 Detection Window Size: 3
 Random Number Upperbound: 50
-Total Event Detected During Simulation 13
-Total Encryption Time: 0.115558
-Total Decryption Time: 1.441130
+Total Event Detected During Simulation 3
+Total Encryption Time: 0.020858
+Total Decryption Time: 0.935622
 
 [Iteration Summary Log]
 Iteration	Events detected		Encyprtion Time		Decryption Time		Communication Time		Total Messages communicated
 0			0					0.000000			0.000000			0.000000			62
 1			0					0.000000			0.000000			0.000000			62
-2			2					0.025601			0.149564			0.454410			64
+2			0					0.000000			0.000000			0.000000			62
 3			0					0.000000			0.000000			0.000000			62
-4			1					0.011342			0.026479			0.323196			63
-5			2					0.022199			0.057095			0.466453			64
-6			4					0.054117			0.199980			1.228488			66
-7			1					0.000260			0.022670			0.561235			63
+4			0					0.000000			0.000000			0.000000			62
+5			0					0.000000			0.000000			0.000000			62
+6			0					0.000000			0.000000			0.000000			62
+7			0					0.000000			0.000000			0.000000			62
 8			0					0.000000			0.000000			0.000000			62
-9			3					0.002039			0.083121			1.248932			65
+9			3					0.020858			0.115842			0.340981			65

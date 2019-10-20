@@ -1,3 +1,6 @@
+//Student Name: Jiayuan Chang
+//Student ID: 28718038
+
 #include "WSN.h"
 //this files contains the functionalities of nodes/sensors in the WSN grid
 void distribute_key_sendfirst(long * public_key, long * n, long *keys, long *n_mods, int offset, int to_and_from, MPI_Status * stat, int tag){

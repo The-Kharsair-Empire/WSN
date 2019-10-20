@@ -1,3 +1,5 @@
+//Student Name: Jiayuan Chang
+//Student ID: 28718038
 #include "WSN.h"
 //this files contains the all the functionalities of a base station.
 void Base_station_functions(int simulation_times, int upperbound, FILE *fp, long *code_word1, int msgLen, long private_key, long n, int Completion, int window_size){

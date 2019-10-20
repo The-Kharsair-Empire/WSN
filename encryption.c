@@ -1,3 +1,5 @@
+//Student Name: Jiayuan Chang
+//Student ID: 28718038
 #include "WSN.h"
 //#include <string.h>
 //#include <omp.h>

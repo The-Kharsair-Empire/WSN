@@ -1,3 +1,6 @@
+//Student Name: Jiayuan Chang
+//Student ID: 28718038
+
 #include "WSN.h"
 
 //WSN grid stucture: 4 x 5;
