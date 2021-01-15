@@ -1,5 +1,3 @@
-//Student Name: Jiayuan Chang
-//Student ID: 28718038
 
 #include "WSN.h"
 //this files contains the functionalities of nodes/sensors in the WSN grid

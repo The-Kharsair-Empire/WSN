@@ -1,5 +1,4 @@
-//Student Name: Jiayuan Chang
-//Student ID: 28718038
+
 
 #include "WSN.h"
 

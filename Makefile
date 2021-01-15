@@ -1,6 +1,4 @@
 
-#Student Name: Jiayuan Chang
-#Student ID: 28718038
 all: run
 
 run: compile
